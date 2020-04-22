@@ -1,0 +1,4 @@
+git init
+git add /space/s276253/synthesis/
+git commit -m "new commit"
+git push
