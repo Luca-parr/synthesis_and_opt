@@ -2,7 +2,7 @@ set sdc_version 1.3
 
 set clockName "clk"
 set rstName "rst"
-set clockPeriod "5.0"
+set clockPeriod "18.0"
 
 ;# Set-up Clock
 create_clock -period $clockPeriod $clockName

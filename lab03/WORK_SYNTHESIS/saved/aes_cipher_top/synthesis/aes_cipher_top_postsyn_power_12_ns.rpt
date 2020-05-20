@@ -1,0 +1,55 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : aes_cipher_top
+Version: J-2014.09-SP2
+Date   : Wed May 20 13:53:46 2020
+****************************************
+
+
+Library(s) Used:
+
+    CORE65LPSVT (File: /space/s276253/synthesis/lab03/WORK_SYNTHESIS/tech/STcmos65/CORE65LPSVT_nom_1.20V_25C.db)
+
+
+Operating Conditions: nom_1.20V_25C   Library: CORE65LPSVT
+Wire Load Model Mode: enclosed
+
+Design        Wire Load Model            Library
+------------------------------------------------
+aes_cipher_top         area_12Kto18K     CORE65LPSVT
+
+
+Global Operating Voltage = 1.2  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1mW
+
+
+  Cell Internal Power  = 822.316162 uW   (55%)
+  Net Switching Power  = 675.562317 uW   (45%)
+                         ---------
+Total Dynamic Power    = 1.497879 mW  (100%)
+
+Cell Leakage Power     =   1.4978 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad           0.000000          0.000000          0.000000          0.000000  (   0.00%)
+memory           0.000000          0.000000          0.000000          0.000000  (   0.00%)
+black_box        0.000000          0.000000          0.000000          0.000000  (   0.00%)
+clock_network    0.000000          0.000000          0.000000          0.000000  (   0.00%)
+register         0.621667          0.231090        3.605673e-04          0.853117
+                                                                                 (  56.90%)
+sequential       0.000000          0.000000          0.000000          0.000000  (   0.00%)
+combinational    0.200648          0.444473        1.137251e-03          0.646258
+                                                                                 (  43.10%)
+--------------------------------------------------------------------------------------------------
+Total            0.822316 mW       0.675563 mW     1.497818e-03 mW       1.499376 mW
+1

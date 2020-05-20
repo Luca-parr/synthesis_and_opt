@@ -77,8 +77,8 @@ report_power
 ######################################################################
 
 # SET REPORT FILE NAME
-set timing_rpt "${dir}/${blockName}_postsyn_timing.rpt"
-set power_rpt "${dir}/${blockName}_postsyn_power.rpt"
+set timing_rpt "${dir}/${blockName}_postsyn_timing_18_ns.rpt"
+set power_rpt "${dir}/${blockName}_postsyn_power_18_ns.rpt"
 
 # TIMING REPORT
 report_timing > $timing_rpt
