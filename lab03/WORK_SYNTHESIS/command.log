@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version J-2014.09-SP2 for amd64 -- Nov 25, 2014
-#@ # Date:   Wed May 20 14:16:06 2020
+#@ # Date:   Wed May 20 18:35:43 2020
 #@ # Run by: s276253@worksynthesis
 #@ 
 
@@ -3756,8 +3756,8 @@ source /tools/synopsys_14.15/syn/admin/setup/.synopsys_dc.setup
 #@ 
 #@ # -- End source /tools/synopsys_14.15/syn/admin/setup/.synopsys_dc.setup
 
-source scripts/pt_analysis.tcl
-#@ # -- Starting source scripts/pt_analysis.tcl
+source scripts/info_cell.tcl
+#@ # -- Starting source scripts/info_cell.tcl
 
 #@ ##	+----------------------------------------------------------------
 #@ ##	|		 Synthesis and Optimization of Digital Circuits			|
@@ -3853,14 +3853,15 @@ source scripts/pt_analysis.tcl
 #@ ######################################################################
 #@ 
 #@ # SET REPORT FILE NAME
-#@ set timing_rpt "${dir}/${blockName}_postsyn_timing_30_ns.rpt"
-#@ set power_rpt "${dir}/${blockName}_postsyn_power_30_ns.rpt"
-#@ 
-#@ # TIMING REPORT
-#@ report_timing > $timing_rpt
-#@ 
-#@ # POWER REPORT
-#@ report_power > $power_rpt
+#@ foreach_in_collection point_cell [get_cells] {
+#@ set cell_name [get_attribute $point_cell full_name]
+#@ set cell_type [get_attribute $point_cell is_combinational]
+#@ if { $cell_type == true } {
+#@ puts "$cell_name is combinational"
+#@ } else {
+#@ puts "$cell_name is not combinational"
+#@ }
+#@ }
 #@ 
 #@ ######################################################################
 #@ ##
@@ -3869,6 +3870,5 @@ source scripts/pt_analysis.tcl
 #@ ######################################################################
 #@ 
 #@ #exit
-#@ # -- End source scripts/pt_analysis.tcl
+#@ # -- End source scripts/info_cell.tcl
 
-exit
