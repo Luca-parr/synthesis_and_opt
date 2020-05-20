@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version J-2014.09-SP2 for amd64 -- Nov 25, 2014
-#@ # Date:   Wed May 20 13:58:44 2020
+#@ # Date:   Wed May 20 14:16:06 2020
 #@ # Run by: s276253@worksynthesis
 #@ 
 
@@ -3853,8 +3853,8 @@ source scripts/pt_analysis.tcl
 #@ ######################################################################
 #@ 
 #@ # SET REPORT FILE NAME
-#@ set timing_rpt "${dir}/${blockName}_postsyn_timing_18_ns.rpt"
-#@ set power_rpt "${dir}/${blockName}_postsyn_power_18_ns.rpt"
+#@ set timing_rpt "${dir}/${blockName}_postsyn_timing_30_ns.rpt"
+#@ set power_rpt "${dir}/${blockName}_postsyn_power_30_ns.rpt"
 #@ 
 #@ # TIMING REPORT
 #@ report_timing > $timing_rpt
