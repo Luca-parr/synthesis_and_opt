@@ -11,11 +11,13 @@ read_library ./data/RTL_libraries/RTL_lib_1.txt
 #puts "$edge_att"
 #puts "$lib_fu_att"
 
-set latency_schedule [list_latency 19]
+set latency_schedule [list_latency 18]
 foreach pair $latency_schedule {
 set node_id [lindex $pair 0]
+set node_op [ get_attribute $node_id operation ]
+set node_delay [ lindex $pair 2 ]
 set start_time [lindex $pair 1]
-puts "node $node_id starts @$start_time"
+puts "node $node_id doing $node_op with delay $node_delay starts @$start_time"
 
 }
 print_dfg ./data/out/fir.dot
