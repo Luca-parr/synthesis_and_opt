@@ -1,0 +1,147 @@
+
+proc list_latency { latency } {
+puts "start"
+set node_sorted [get_sorted_nodes]
+set node_list [ lreverse $node_sorted ]
+
+#insert_the_resources=1
+ set resources {}
+ set time_res {}
+ set t 0
+ set node_start_time [list]
+ set l 1
+ set lib_fus [get_lib_fus]
+#acquire all information from library
+ foreach lib_fu $lib_fus {
+	 set operation [ get_attribute $lib_fu operation ]
+	 set delay [ get_attribute $lib_fu delay ]
+	 set id_res [ get_attribute $lib_fu id ]
+	 set area_res [ get_attribute $lib_fu area ]
+	 set power_res [ get_attribute $lib_fu power ]
+	 lappend type_res " $operation 1 $id_res $area $power $delay "
+ }
+ lsort -real -index 5 $type_res
+puts "test_1"
+puts "$type_res"
+###sort resources by delay
+ foreach operation $type_res {
+	 set op -index 0 $operation
+	 set index [ lsearch -index 0 $one_type_res $op ]
+	 if { index  < 0} {
+		 lappend one_type_res $operation
+	 }
+ }
+########################################
+puts "test_2"
+#alap
+###############################
+
+ set node_start_time_alap [list]
+ foreach node $node_list {
+         set start_time $latency
+         foreach children [ get_attribute $node children ] {
+                 set node_op [ get_attribute $node operation ]
+                 set fu [ lindex [ lindex $type_res [ lsearch -index 0 $type_res $node_op ] ] 5 ]
+		 set node_delay [ get_attribute $fu delay ]
+                 set idx_children_start [ lsearch -index 0 $node_start_time_alap $children ]
+                 set children_start_time [ lindex [ lindex $node_start_time_alap $idx_children_start ]  1 ]
+                 set node_time [ expr $children_start_time - $node_delay ]
+                 if { $node_time < $start_time } {
+                         set start_time $node_time
+                 }
+          }
+                 lappend node_start_time_alap " $node $start_time "
+}
+ set node_alap [ lreverse $node_start_time_alap ]
+puts "test1"
+puts "$node_alap"
+
+##################################
+
+ while { [llength $node_start_time] < [ llength $node_alap ] } {
+
+ foreach operation $one_type_res {
+	 set num_candidate [ lindex $operation 1 ]
+	 set type [ lindex $operation 0 ]
+
+	 foreach scheduled $node_start_time {
+		 set start [ lindex $scheduled 1 ]
+		 set node [ lindex $scheduled 0 ]
+		 set node_delay [ lindex [ lindex $one_type_res [ lsearch -index 0 $one_type_res $type ] ] 1 ]
+		 if { [ get_attribute $node operation ] eq $type } {
+			 set t [ expr { $l - $start - $node_delay } ]
+			 if { $t >= 0 } {
+				 set t 0
+
+ 			 } else {
+				 set t 1
+			 }
+		 set num_candidate [ expr { $num_candidate - $t } ]
+		 }
+	 }
+	 set uncompleted [ expr { [ lindex $operation 1 ] - $num_candidate } ]
+#numcandidate=ar-T
+	 foreach node_al $node_alap {
+	 set node [ lindex $node_al 0 ]
+		 if { [ get_attribute $node operation ] eq $type } {
+			 set flag 0
+		         if { [ lsearch -index 0 $node_start_time $node ] >= 0 } {
+				 set flag 1
+			 }
+			 if { $flag == 0 } {
+				 foreach parent [get_attribute $node parents] {
+				 set indice [ lsearch -index 0 $node_start_time $parent ]
+				 if { $indice >= 0 } {
+	 	 			 set start_parent [ lindex [ lindex $node_start_time $indice ] 1 ]
+               				 set node_parent [ lindex [ lindex $node_start_time $indice ]  0 ]
+					 set type_parent [ get_attribute $node_parent operation ]
+               				 set node_delay_parent [ lindex [ lindex $time_res [ lsearch -index 0 $time_res $type_parent ] ] 1 ]
+	 				 set t [ expr { $l - $start_parent - $node_delay_parent } ]
+					 if { $t < 0 } {
+						 set flag 1
+                          		 }
+				 } else {
+		 			 set flag 1
+				 }
+				 }
+			 }
+			 if { $flag == 0 } {
+				 set slack [ expr { [ lindex $node_al 1 ] - $t } ]
+			 	 lappend node_slack "$node $slack"
+			 }
+	 	}
+	 }
+	 set new_y 0
+	 foreach node $node_slack {
+		 set node_s [ lindex $node 0 ]
+		 set a_new [ lindex $operation 1 ]
+		 if { [ lindex $node 1 ] == 0 } {
+			 if { $a_new < [ expr { $uncompleted + 1 } ] } {
+				 set a_new [ expr { $uncompleted + 1 } ]
+			 }
+			 lappend node_start_time " $node_s $l "
+			 set new_y [ expr { $new_y + 1 } ]
+		 } else {
+			if { $a_new >= $new_y + $uncompleted } {
+			 lappend node_start_time " $node_s $l "
+			 set new_y [ expr { $new_y + 1 } ]
+			}
+		 }
+	 }
+	 set [lindex [ lindex $one_type_res [ lsearch $one_type_res $operation ] ] 1] $a_new
+ }
+ set l [ expr { $l +1 } ]
+ }
+
+ foreach operation $type_res {
+	 set id_node -index 2 $operation
+         set index [ lsearch -index 2 $one_type_res $id_node ]
+         if { index  > 0} {
+                 set [ lindex $type_res [ lsearch $type_res $operation ] ] [ lindex $one_type_res $index]
+	 }
+ }
+
+ puts "************************************************************************"
+ return $node_start_time
+}
+
