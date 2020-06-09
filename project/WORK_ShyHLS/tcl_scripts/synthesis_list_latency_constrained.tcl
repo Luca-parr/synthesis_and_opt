@@ -1,6 +1,6 @@
 source ./tcl_scripts/setenv.tcl
-source ./tcl_scripts/scheduling/list_latency_constrained.tcl
-
+#source ./tcl_scripts/scheduling/list_latency_constrained.tcl
+source ./tcl_scripts/scheduling/list_latency_constrained_rec.tcl   
 read_design ./data/DFGs/fir.dot
 read_library ./data/RTL_libraries/RTL_lib_1.txt
 
@@ -11,7 +11,7 @@ read_library ./data/RTL_libraries/RTL_lib_1.txt
 #puts "$edge_att"
 #puts "$lib_fu_att"
 set dfg_late {}
-set latency_schedule [list_latency 18]
+set latency_schedule [list_latency 32]
 foreach pair $latency_schedule {
 set node_id [lindex $pair 0]
 set node_op [ get_attribute $node_id operation ]

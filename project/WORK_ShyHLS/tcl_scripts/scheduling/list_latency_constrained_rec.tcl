@@ -7,6 +7,7 @@ puts "start"
  set resources {}
  set time_res {}
  set t 0
+ set rec 0
  set type_res {}
  set one_type_res {}
  set node_start_time [list]
@@ -19,7 +20,7 @@ puts "start"
 	 set id_res [ get_attribute $lib_fu id ]
 	 set area_res [ get_attribute $lib_fu area ]
 	 set power_res [ get_attribute $lib_fu power ]
-	 lappend type_res " $operation 1 $id_res $area_res $power_res $delay "
+	 lappend type_res " $operation 0 $id_res $area_res $power_res $delay "
  }
  set type_res [ lsort -real -index 5 $type_res ]
 puts "test_1 all resources"
@@ -66,7 +67,9 @@ puts "$node_alap"
 ##################################
 
  while { [llength $node_start_time] < [ llength $node_alap ] } {
-
+set rec 0
+puts "esce_ciclo"
+while { $rec == 0 } {
  foreach operation $one_type_res {
 	 set num_candidate [ lindex $operation 1 ]
 	 set type [ lindex $operation 0 ]
@@ -89,7 +92,7 @@ puts "$node_alap"
 	 set uncompleted [ expr { [ lindex $operation 1 ] - $num_candidate } ]
 #numcandidate=ar-T
 #puts "test_3"
-puts "$type"
+#puts "$type"
 	 foreach node_al $node_alap {
 	 set node [ lindex $node_al 0 ]
 		 if { [ get_attribute $node operation ] eq $type } {
@@ -114,11 +117,11 @@ puts "$type"
 	 				 set t [ expr { $l - $start_parent - $node_delay_parent } ]
 					 if { $t < 0 } {
 						 set flag 1
-puts "parenti:$parent $t"
+#puts "parenti:$parent $t"
                           		 }
 				 } else {
 		 			 set flag 1
-puts "test_3.3"
+#puts "test_3.3"
 				 }
 				 }
 			 }
@@ -135,7 +138,7 @@ puts "test_3.3"
 	 set new_y 0
 	 set a_new [ lindex $operation 1 ]
 	 set node_slack [ lsort -real -index 1 $node_slack ]
-puts "$node_slack"
+#puts "$node_slack"
 	 foreach node $node_slack {
 		 set node_s [ lindex $node 0 ]
 		 if { [ lindex $node 1 ] == 0 } {
@@ -143,9 +146,10 @@ puts "$node_slack"
 			 if { $a_new < [ expr { $uncompleted + $new_y } ] } {
 				 set a_new [ expr { $uncompleted + $new_y } ]
 puts "a_new_updated:$a_new"
+set rec 1
 			 }
 #############################################################
-puts "slack_0:$node un:$uncompleted new_y:$new_y time:$l"
+#puts "slack_0:$node un:$uncompleted new_y:$new_y time:$l"
 set op [ get_attribute $node operation ]
 set index [ lsearch -index 0 $one_type_res $op ]
 set del [ lindex [ lindex $one_type_res $index ] 5 ]
@@ -155,7 +159,7 @@ lappend  node_start_time " $node_s $l $del"
 		 } else {
 			if { $a_new > [ expr { $new_y + $uncompleted } ] } {
 #############################################################
-puts "slack_pos:$node  un:$uncompleted new_y:$new_y time:$l"  
+#puts "slack_pos:$node  un:$uncompleted new_y:$new_y time:$l"  
 set op [ get_attribute $node operation ] 
 set index [ lsearch -index 0 $one_type_res $op ]
 set del [ lindex [ lindex $one_type_res $index ] 5 ]
@@ -177,20 +181,26 @@ lappend  node_start_time " $node_s $l $del"
 #puts "test_5"  
  }
  set l [ expr { $l +1 } ]
+ if { $rec== 1 } {
+         set node_start_time {}
+	 set l 1
+puts "out"
+         break
+ }
+ if { [llength $node_start_time] == [ llength $node_alap ] } {
+         set rec 1
+ }
+ }
  }
 
  foreach operation $type_res {
-	 set id_node [lindex $operation 2 ]
+         set id_node [lindex $operation 2 ]
          set index [ lsearch -index 2 $one_type_res $id_node ]
          if { $index  >= 0} {
-		 set node_tmp  [ lindex $one_type_res $index ]
-		 set index_type_res  [ lsearch $type_res $operation ]
-		 set type_res [ lreplace $type_res  $index_type_res  $index_type_res $node_tmp ]
-	 } else {
-		 set node_tmp [ lreplace $operation 1 1 0 ]
+                 set node_tmp  [ lindex $one_type_res $index ]
                  set index_type_res  [ lsearch $type_res $operation ]
-		 set type_res [ lreplace $type_res  $index_type_res  $index_type_res $node_tmp ]
-	 }
+                 set type_res [ lreplace $type_res  $index_type_res  $index_type_res $node_tmp ]
+         }
  }
 #puts "$one_type_res"
  puts "************************************************************************"
@@ -198,5 +208,4 @@ lappend  node_start_time " $node_s $l $del"
  puts "$node_alap"
  return $node_start_time
 }
-
 
