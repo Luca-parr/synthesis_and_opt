@@ -12,7 +12,6 @@ puts "start"
  set one_type_res {}
  set node_start_time [list]
  set l 1
- set node_start_res {}
  set lib_fus [get_lib_fus]
 #acquire all information from library
  foreach lib_fu $lib_fus {
@@ -24,7 +23,7 @@ puts "start"
 	 lappend type_res " $operation 0 $id_res $area_res $power_res $delay "
  }
  set type_res [ lsort -real -index 5 $type_res ]
-#puts "test_1 all resources"
+puts "test_1 all resources"
 #puts "$type_res"
 #puts "$lib_fus"
 ###sort resources by delay
@@ -38,7 +37,7 @@ puts "start"
  }
 ########################################
 
-#puts "test_2 one type resources"
+puts "test_2 one type resources"
 
 #alap
 ###############################
@@ -68,9 +67,9 @@ puts "$node_alap"
 ##################################
 
  while { [llength $node_start_time] < [ llength $node_alap ] } {
- set rec 0
-#puts "esce_ciclo"
- while { $rec == 0 } {
+set rec 0
+puts "esce_ciclo"
+while { $rec == 0 } {
  foreach operation $one_type_res {
 	 set num_candidate [ lindex $operation 1 ]
 	 set type [ lindex $operation 0 ]
@@ -146,26 +145,26 @@ puts "$node_alap"
 			 set new_y [ expr { $new_y + 1 } ] 
 			 if { $a_new < [ expr { $uncompleted + $new_y } ] } {
 				 set a_new [ expr { $uncompleted + $new_y } ]
-#puts "a_new_updated:$a_new"
-				 set rec 1
+puts "a_new_updated:$a_new"
+set rec 1
 			 }
 #############################################################
 #puts "slack_0:$node un:$uncompleted new_y:$new_y time:$l"
-#set op [ get_attribute $node operation ]
-#set index [ lsearch -index 0 $one_type_res $op ]
-#set del [ lindex [ lindex $one_type_res $index ] 5 ]
-#lappend  node_start_time " $node_s $l "
+set op [ get_attribute $node operation ]
+set index [ lsearch -index 0 $one_type_res $op ]
+set del [ lindex [ lindex $one_type_res $index ] 5 ]
+lappend  node_start_time " $node_s $l $del"
 ###########################################################
-			 lappend node_start_time " $node_s $l "
+#			 lappend node_start_time " $node_s $l "
 		 } else {
 			if { $a_new > [ expr { $new_y + $uncompleted } ] } {
 #############################################################
 #puts "slack_pos:$node  un:$uncompleted new_y:$new_y time:$l"  
-#set op [ get_attribute $node operation ] 
-#set index [ lsearch -index 0 $one_type_res $op ]
-#set del [ lindex [ lindex $one_type_res $index ] 5 ]
-#lappend  node_start_time " $node_s $l $del" 
-			 lappend node_start_time " $node_s $l "
+set op [ get_attribute $node operation ] 
+set index [ lsearch -index 0 $one_type_res $op ]
+set del [ lindex [ lindex $one_type_res $index ] 5 ]
+lappend  node_start_time " $node_s $l $del" 
+#			 lappend node_start_time " $node_s $l "
 			 set new_y [ expr { $new_y + 1 } ]
 			}
 		 }
@@ -185,7 +184,7 @@ puts "$node_alap"
  if { $rec== 1 } {
          set node_start_time {}
 	 set l 1
-#puts "out"
+puts "out"
          break
  }
  if { [llength $node_start_time] == [ llength $node_alap ] } {
@@ -204,15 +203,20 @@ puts "$node_alap"
          }
  }
  foreach node_start $node_start_time {
-	 set node [ lindex $node_start 0]
-	 set operation [ get_attribute $node operation ]
-	 set resource [ lindex [ lindex $one_type_res [ lsearch -index 0 $one_type_res $operation ] ] 2 ]
-	 lappend node_start_res " $node_start $resource "
+ set node [ lindex $node_start 0]
+ set operation [ get_attribute $node operation ]
+ set res [ lindex [ lsearch -index 0 $one_type_res $ ]]
+
+
+
+
+
+
+
  }
 
-#puts "$one_type_res"
 
- puts " node_start: $node_start_res"
+#puts "$one_type_res"
  puts "************************************************************************"
  puts "$type_res"
  puts "$node_alap"

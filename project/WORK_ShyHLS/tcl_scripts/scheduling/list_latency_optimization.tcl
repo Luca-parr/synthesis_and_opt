@@ -1,5 +1,5 @@
 
-proc list_latency { latency } {
+proc list_latency_optimization { latency } {
 puts "start"
  set node_sorted [get_sorted_nodes]
  set node_list [ lreverse $node_sorted ]
@@ -63,8 +63,8 @@ puts "start"
                  lappend node_start_time_alap " $node $start_time "
 }
  set node_alap [  lsort -real -index 1 $node_start_time_alap  ]
-puts "test_2 alap"
-puts "$node_alap"
+#puts "test_2 alap"
+#puts "$node_alap"
 ##################################
 
  while { [llength $node_start_time] < [ llength $node_alap ] } {
@@ -209,13 +209,72 @@ puts "$node_alap"
 	 set resource [ lindex [ lindex $one_type_res [ lsearch -index 0 $one_type_res $operation ] ] 2 ]
 	 lappend node_start_res " $node_start $resource "
  }
-
+ set node_start_temp $node_start_res
+ set t_last [ lindex [ lindex $node_start_time [expr { [ llength $node_start_time ] - 1 } ] ] 1 ]
+puts "t:$t_last"
 #puts "$one_type_res"
 
  puts " node_start: $node_start_res"
  puts "************************************************************************"
- puts "$type_res"
- puts "$node_alap"
+ puts "type_res: $type_res"
+ puts "************************************************************************"     
+ puts "node_alap: $node_alap"
+ puts "************************************************************************"     
+ set flag 0
+ set res_to_sub {}
+ set index_res_to_sub 1
+ set index_res_op_to_opt 1
+ foreach operation $one_type_res {
+	 if { [ lindex $operation 1] == 0 } {
+		 set flag 1
+	 }
+	 if { $flag == 0 } {
+	 	 foreach res $type_res {
+			if { [ lindex $res 0 ] == [ lindex $operation 0 ] } {
+			 	 lappend list_op_to_opt $res
+			 }
+		 }
+	 if { [llength $list_op_to_opt ] > 1 } {
+		 set num_res [ lindex $operation 1 ]
+		 for {set i 0} { $i < [ expr { $num_res - 1} ] } { incr i } {
+			 lappend res_to_sub [lindex $list_op_to_opt 0]
+		 }
+		 lappend res_to_sub [ lindex $list_op_to_opt $index_res_op_to_opt ]
+		 }
+	 }
+	  set flag 0
+	  set list_op_to_opt {} 
+ }
+
+	 set t 1
+	 while { $t <= $t_last } {
+		foreach operation $one_type_res {
+			if { [ lsearch -index 0 $res_to_sub [ lindex $operation 0 ] ] >= 0 } {
+	 			foreach node $node_start_temp {
+					 if { [ get_attribute [ lindex $node 0 ] operation ] == [ lindex $operation 0 ] } {
+						if { [ lindex $node 1 ] == $t } {
+						 set node_name [ lindex $node 0 ]
+#puts "node_name: $node_name "
+						 set time_node_al  [ lindex [ lindex $node_alap [ lsearch -index 0 $node_alap $node_name ] ] 1 ]
+#puts "node_alap: $time_node_al "
+						 set slack [ expr { $time_node_al - $t } ]
+						 lappend node_slack " $node_name $slack "
+						}
+					 }
+				}
+			}
+		set node_slack [ lsort -integer -index 1 $node_slack ]
+#puts " node_slack : $node_slack at $t"
+		set node_slack {}
+		}
+	 	incr t
+	 }
+
+
+
+
+
+
+
  return $node_start_time
 }
-
