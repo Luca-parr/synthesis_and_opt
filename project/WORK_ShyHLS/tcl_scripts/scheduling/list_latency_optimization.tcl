@@ -21,7 +21,7 @@ puts "start"
 	 set id_res [ get_attribute $lib_fu id ]
 	 set area_res [ get_attribute $lib_fu area ]
 	 set power_res [ get_attribute $lib_fu power ]
-	 lappend type_res " $operation 0 $id_res $area_res $power_res $delay "
+	 lappend type_res " $operation 1 $id_res $area_res $power_res $delay "
  }
  set type_res [ lsort -real -index 5 $type_res ]
 #puts "test_1 all resources"
@@ -32,9 +32,13 @@ puts "start"
  foreach operation $type_res {
 	 set op [ lindex $operation 0 ]
 	 set index [ lsearch -index 0 $one_type_res $op ]
-	 if { $index  < 0} {
-		 lappend one_type_res $operation
-	 }
+         if { $index  < 0} {
+                 lappend one_type_res $operation
+         } else {
+                 set index [ lsearch $type_res $operation ]
+                 set operation [ lreplace $operation 1 1 0 ]
+                 set type_res [ lreplace $type_res $index $index $operation ]
+         }
  }
 ########################################
 
@@ -212,7 +216,7 @@ puts "start"
  set node_start_temp $node_start_res
  set node_start_original $node_start_res
  set t_last [ lindex [ lindex $node_start_time [expr { [ llength $node_start_time ] - 1 } ] ] 1 ]
-puts "t:$t_last"
+#puts "t:$t_last"
 #puts "$one_type_res"
 
  puts " node_start: $node_start_res"
@@ -221,6 +225,7 @@ puts "t:$t_last"
  puts "************************************************************************"     
  puts "node_alap: $node_alap"
  puts "************************************************************************"     
+ set flag_sub 0
  set flag 0
  set flag_critical 0
  set node_modified {}
@@ -245,23 +250,21 @@ puts "t:$t_last"
 		 set op  [ lindex $operation 0 ]
 		 lappend list_op " $op 0"
 		 set num_res [ lindex $operation 1 ]
-		 for {set i 0} { $i < [ expr { $num_res - 1} ] } { incr i } {
+		 for {set i 0} { $i <  $num_res } { incr i } {
 			 set op [lindex $list_op_to_opt 0]
 			 lappend res_to_sub "$op 0"
 			 lappend res_to_sub_temp "$op 0"
 		 }
-		 lappend res_to_sub_temp "$op 0"
-                 set op [ lindex $list_op_to_opt $index_res_op_to_opt ]
-		 lappend res_to_sub "$op 0"
+
 		 }
 	 }
 	  set flag 0
 	  set list_op_to_opt {}
  }
-
- set t 1
+puts "res_to_sub: $res_to_sub"
  while { [ llength $list_op ] > 0 } {
- 
+#puts " test_11"
+ set t 1   
  while { $t <= $latency } {
 	foreach operation $one_type_res {
 		if { [ lsearch -index 0 $res_to_sub [ lindex $operation 0 ] ] >= 0 } {
@@ -295,8 +298,8 @@ puts "t:$t_last"
 #set index_check [ expr { $start_res + $index } ]
 #puts "res_to_sub : $res_to_sub indice: $start_res  "
 #puts "del: $res_check"
+#puts "test_12"
 					set delta_delay [ expr { [ lindex $res_check  5 ] - [ lindex $operation 5] } ]
-#puts " delta : $delta_delay "
 
 					if { $delta_delay <= [ lindex $node 1 ] } {
 #puts "node_to_repl: $node_to_replace "
@@ -314,21 +317,21 @@ puts "t:$t_last"
 					}
 				}
 
-puts "node_modified : $node_modified at t : $t "
+#puts "node_modified : $node_modified at t : $t "
 #puts "incr_index"
 			incr index
 		}
 		if { $flag == 0 } {
-puts "test_1"
+#puts "test_1"
 			if { [ lindex $node 1 ] > 0 } {
-puts "test_2 node_to_replace: $node_to_replace "  
+#puts "test_2 node_to_replace: $node_to_replace "  
 				set node_to_replace [ lreplace $node_to_replace 1 1 [ expr { [ lindex $node_to_replace 1 ] + 1 } ] ]
 #puts "test_2"
 				set node_finish [ expr { [ lindex $node_to_replace 1 ] + [ lindex $operation  5 ] } ]
 				lappend node_modified " $node_to_replace $node_finish "
 				set node_start_temp [ lreplace $node_start_temp $index_node_start $index_node_start $node_to_replace ]
 			} else {
-puts "test_3"
+#puts "test_3"
 				set op_critical $operation
 				set flag_critical 1
 				break
@@ -378,24 +381,38 @@ puts "test_3"
 #aggiornodelay se flag critical 0
 #pulisconodemodified
  }
+ set list_op_count 0
  if {  $flag_critical == 1 } {
+#puts "test_9"
+	set flag_critical 0
 	set res_to_sub $res_to_sub_temp
-	set index [ lsearch -index 0 $list_op $op_critical ]
+	set index [ lsearch -index 0 $list_op [ lindex $op_critical 0 ] ]
+#puts "index:$index op_critical:$op_critical list_op:$list_op"
 	set critical [ lindex [lindex $list_op $index ] 1 ]
+#puts "cr:$critical"
 	set critical [ expr { $critical + 1 } ]
 	set op_to_replace [lindex $list_op $index ]
 	set op_to_replace [lreplace $op_to_replace 1 1 $critical]
 	set list_op [ lreplace $list_op $index $index $op_to_replace ]
 	if { $critical > 1 } {
-		set list_op [ lremove $list_op $index ]
+		set list_op [ lreplace $list_op $index $index ]
+	} else {
+		set index_start [ lsearch -index 0 $res_to_sub [ lindex $op_critical 0 ] ]
+#puts "test_9.1"
+		set index_last [ expr { $index_start + [ lindex [ lindex $one_type_res [ lsearch -index 0 $one_type_res [ lindex $op_critical 0 ] ] ] 1 ] - 1 } ]
+#puts "test_9.2"
+		set id_last_op [ lindex [ lindex $res_to_sub $index_last ] 2 ]
+		set index_last_op [ lsearch -index 2 $type_res $id_last_op ]
+		set index_last_op [ expr { $index_last_op + 1 } ]
+		set index_to_replace [ lsearch -start $index_last_op -index 0 $type_res [ lindex $op_critical 0 ] ]
+		if { $index_to_replace < 0 } {
+			set list_op [ lreplace $list_op $index $index ]
+		} else {
+			set operation_to_replace [ lindex $type_res $index_to_replace ]
+			set res_to_sub [ lreplace $res_to_sub $index_last $index_last $operation_to_replace ]
+		}
 	}
-	set index_start [ lsearch -index 0 $res_to_sub $op_critical ]
-	set index_last [ expr{ $index_start + [ lindex [ lindex $one_type_res [ lsearch -index 0 $one_type_res $op_critical ] ] 1 ] } ]
-	set id_last_op [ lindex [ lindex $res_to_sub $index_last ] 2 ]
-	set index_last_op [ lsearch -index 2 $type_res $id_last_op ]
-	set operation_to_replace [ lindex $type_res [ lsearch -start $index_last_op -index 0 $type_res $op_critical ] ]
-	set res_to_sub [ lreplace $res_to_sub $index_last_op $index_last_op $operation_to_replace ]
-
+#puts "test_10"
  } else {
 	 foreach res $res_to_sub {
 		set index [ lsearch $res_to_sub $res ]
@@ -412,15 +429,49 @@ puts "test_3"
 		set list_op_count 0
  	 }
 	 set operation [ lindex $list_op $list_op_count ] 
-	 set index_start [ lsearch -index 0 $res_to_sub $operation ]
-	 set index_last [ expr{ $index_start + [ lindex [ lindex $one_type_res [ lsearch -index 0 $one_type_res $operation ] ] 1 ] } ]
+#puts "oper;: $operation"
+	 set index_start [ lsearch -index 0 $res_to_sub [ lindex $operation 0 ] ]
+
+	 set index_last [ expr { $index_start + [ lindex [ lindex $one_type_res [ lsearch -index 0 $one_type_res [ lindex $operation 0] ] ] 1 ] - 1 } ]
 #dobbiamo comparare id operazioni fra le due vicine
-#sequella a sinistra è diversa cambia
+#se quella a sinistra è diversa cambia
+	 set i 0
+	 while { $flag_sub == 0 } {
+		if { $index_last == 0 } {
+			set flag_sub 1
+		} else {
+			incr i -1
+			if { [ lindex [ lindex $res_to_sub [ expr { $index_last + $i } ] ] 0 ] == [ lindex [ lindex $res_to_sub [ expr { $index_last + $i + 1 } ] ] 0 ]  } {
+				if { [ lindex [ lindex $res_to_sub [ expr { $index_last + $i } ] ] 2 ] !=  [ lindex [ lindex $res_to_sub [ expr { $index_last + $i + 1 } ] ] 2 ] } {
+					set index_last [ expr { $index_last + $i } ]
+					set flag_sub 1
+				}
+		 	} else {
+			 set flag_sub 1
+			}
+		}
+
+	 }
+	 set flag_sub 0
+	 set index_last_op [ lsearch -index 2 $type_res [ lindex [ lindex $res_to_sub $index_last ] 2 ] ]
+puts "indx_last :$index_last index_last_op: $index_last_op "
+	 set index_last_op [ expr { $index_last_op + 1 } ]
+	  set index [ lsearch -index 0 $list_op [ lindex $operation 0 ] ] 
+	 set index_to_replace [ lsearch -start $index_last_op -index 0 $type_res [ lindex $operation 0 ] ]
+puts " index_last_op: $index_last_op indx_to_replace: $index_to_replace"
+	 if { $index_to_replace < 0 } {
+		 
+		set list_op [ lreplace $list_op $index $index ]
+	 } else {
+		set operation_to_replace [ lindex $type_res $index_to_replace ]
+		set res_to_sub [ lreplace $res_to_sub $index_last $index_last $operation_to_replace ]
+	 }
 	 set list_op_count [ expr  { $list_op_count + 1 } ] 
+puts "res_to_sub:$res_to_sub list_op: $list_op list_op_co: $list_op_count"  
  }
 
  }
-
+puts "res_to_sub_final:$res_to_sub list_op: $list_op list_op_co: $list_op_count"   
 
  return $node_start_time
 }

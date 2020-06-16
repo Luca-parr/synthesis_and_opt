@@ -21,11 +21,10 @@ puts "start"
 	 set id_res [ get_attribute $lib_fu id ]
 	 set area_res [ get_attribute $lib_fu area ]
 	 set power_res [ get_attribute $lib_fu power ]
-	 lappend type_res " $operation 0 $id_res $area_res $power_res $delay "
+         lappend type_res " $operation 1 $id_res $area_res $power_res $delay "
  }
- set type_res [ lsort -real -index 5 $type_res ]
+ set type_res [ lsort -real -index 5 $type_res ] 
 #puts "test_1 all resources"
-#puts "$type_res"
 #puts "$lib_fus"
 ###sort resources by delay
 
@@ -34,8 +33,13 @@ puts "start"
 	 set index [ lsearch -index 0 $one_type_res $op ]
 	 if { $index  < 0} {
 		 lappend one_type_res $operation
+	 } else {
+		 set index [ lsearch $type_res $operation ]
+		 set operation [ lreplace $operation 1 1 0 ]
+	 	 set type_res [ lreplace $type_res $index $index $operation ]
 	 }
  }
+puts "type_res: $type_res"
 ########################################
 
 #puts "test_2 one type resources"
@@ -65,7 +69,7 @@ puts "start"
  set node_alap [  lsort -real -index 1 $node_start_time_alap  ]
 puts "test_2 alap"
 puts "$node_alap"
-##################################
+#################################
 
  while { [llength $node_start_time] < [ llength $node_alap ] } {
  set rec 0
@@ -155,7 +159,7 @@ puts "$node_alap"
 #set index [ lsearch -index 0 $one_type_res $op ]
 #set del [ lindex [ lindex $one_type_res $index ] 5 ]
 #lappend  node_start_time " $node_s $l "
-###########################################################
+##########################################################
 			 lappend node_start_time " $node_s $l "
 		 } else {
 			if { $a_new > [ expr { $new_y + $uncompleted } ] } {
