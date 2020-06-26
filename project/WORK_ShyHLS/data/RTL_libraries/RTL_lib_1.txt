@@ -1,15 +1,17 @@
-14
+16
 ADD Area=21 Delay=2 Power=23
 ADD Area=10 Delay=1 Power=15
+ADD Area=5 Delay=8 Power=1
 AND Area=31 Delay=1 Power=23
 MUL Area=41 Delay=20 Power=23
 MUL Area=100 Delay=10 Power=46
 MUL Area=21 Delay=100 Power=56
-MUL Area=11 Delay=21 Power=20
+MUL Area=1 Delay=26 Power=1
 ASR Area=51 Delay=1 Power=23
 LSR Area=61 Delay=1 Power=23
 LSL Area=61 Delay=1 Power=23
 LOD Area=21 Delay=1 Power=23
+LOD Area=12 Delay=2 Power=10
 STR Area=21 Delay=2 Power=23
 SUB Area=21 Delay=1 Power=23
 BNE Area=21 Delay=1 Power=23
