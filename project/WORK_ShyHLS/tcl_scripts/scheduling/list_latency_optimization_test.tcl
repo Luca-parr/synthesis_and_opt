@@ -243,17 +243,21 @@ proc brave_opt args {
  	set power_old [ expr { $power_old + [ lindex [ lindex $type_res $index ] 4 ] * [ lindex [ lindex $type_res $index ] 5 ] } ]
  }
 set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
+set area_first $area_old
+set power_first $power_old
+
+
 #puts "t:$t_last"
 #puts "$one_type_res"
 
- puts " node_start: $node_start_res"
- puts "************************************************************************"
- puts "one_type_res: $one_type_res "
- puts "************************************************************************"
- puts "type_res: $type_res"
- puts "************************************************************************"     
- puts "node_alap: $node_alap"
- puts "************************************************************************"     
+# puts " node_start: $node_start_res"
+# puts "************************************************************************"
+# puts "one_type_res: $one_type_res "
+# puts "************************************************************************"
+# puts "type_res: $type_res"
+# puts "************************************************************************"     
+# puts "node_alap: $node_alap"
+# puts "************************************************************************"     
  set flag_sub 0
  set flag 0
  set area_new 0
@@ -262,6 +266,8 @@ set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
  set index_last -1
  set node_modified {}
  set res_to_sub_list {}
+ set area_gain_final 0
+ set power_gain_final 0
  set index_res_to_sub_list 0
  set list_op {}
  set list_op_count -1
@@ -297,7 +303,7 @@ set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
 	  set flag 0
 	  set list_op_to_opt {}
  }
-puts "res_to_sub: $res_to_sub"
+#puts "res_to_sub: $res_to_sub"
  lappend res_to_sub_list " $res_to_sub "
  while { [ llength $list_op ] > 0 } {
 #puts " test_11"
@@ -419,7 +425,7 @@ puts "res_to_sub: $res_to_sub"
  }
 # set list_op_count 0
  if {  $flag_critical == 1 } {
-puts "critical"
+#puts "critical"
 	set flag_critical 0
 #puts " res_to_sub_old : $res_to_sub"
 #puts " node_start_temp: $node_start_temp"
@@ -468,11 +474,11 @@ puts "critical"
 		incr index_res_to_sub_list -1
 #puts "test_list_3"
 	}
-puts "index: $index_res_to_sub_list list_op: $list_op list_op_co: $list_op_count"
-puts "res_to_sub_new: $res_to_sub"
+#puts "index: $index_res_to_sub_list list_op: $list_op list_op_co: $list_op_count"
+#puts "res_to_sub_new: $res_to_sub"
 #puts "test_10"
  } else {
-puts "good"
+#puts "good"
 #puts "node_start_temp_good: $node_start_temp"
 	 set area_new 0
 	 set power_new 0
@@ -501,7 +507,7 @@ puts "good"
 	 set power_new [ expr { $power_new / ( $latency +0.0000 ) } ]
 	 set delta_power [ expr { $power_old - $power_new } ]
 	 set gain_power [ expr { $delta_power * 100 / ( $power_old + 0.0000 ) } ]
-puts "power: $power_new area : $area_new gain_power: $gain_power gain_area: $gain_area "
+#puts "power: $power_new area : $area_new gain_power: $gain_power gain_area: $gain_area "
 	 if { $gain_power < 0 && $gain_area < 0 } {
 		set flag_not_opt 1
 	 } elseif { $gain_power < 0 } {
@@ -575,14 +581,19 @@ puts "power: $power_new area : $area_new gain_power: $gain_power gain_area: $gai
 		set operation_to_replace [ lindex $type_res $index_to_replace ]
 		set res_to_sub [ lreplace $res_to_sub $index_last $index_last $operation_to_replace ]
 	 }
-puts "res_to_sub:$res_to_sub list_op: $list_op list_op_co: $list_op_count"
+#puts "res_to_sub:$res_to_sub list_op: $list_op list_op_co: $list_op_count"
  }
 
  }
 
 
 #puts "res_to_sub_final:$res_to_sub list_op: $list_op list_op_co: $list_op_count"
-puts " node_start_time_old: $node_start_time"
+#puts " node_start_time_old: $node_start_time"
+ set old_latency [ lindex [ lindex $node_start_time [ expr { [ llength $node_start_time ] - 1 } ] ] 1 ]
+ set old_latency [ expr { $old_latency + 2 } ]
+ if { [ expr { $latency - $old_latency } ] < 0 } {
+ 	 return -code error " error old_latency!" 
+ }
  set node_start_time {}
  foreach node $node_start_res {
 	 set start_time [ lindex $node 1 ]
@@ -607,5 +618,14 @@ puts " node_start_time_old: $node_start_time"
  	}
 	 lappend type_res_final " $id_fu $number "
  }
- return [list $node_start_time $node_fu $type_res_final]
+ set new_latency [ lindex [ lindex $node_start_time [ expr { [ llength $node_start_time ] - 1 } ] ] 1 ]
+ set new_latency [ expr { $new_latency + 2 } ]
+ if { [ expr { $latency - $new_latency } ] < 0 } {
+	  return -code error " error new_latency!" 
+ }
+ set delta_area [ expr { $area_first - $area_old } ]
+ set area_gain_final [ expr { $delta_area * 100 / ($area_first + 0.00 ) } ]
+ set delta_power [ expr { $power_first - $power_old } ] 
+ set power_gain_final [ expr { $delta_power * 100 / ($power_first + 0.00 ) } ] 
+ return "$old_latency $new_latency $power_gain_final $area_gain_final "
 }
