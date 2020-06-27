@@ -13,15 +13,32 @@ read_library ./data/RTL_libraries/RTL_lib_1.txt
 #puts "$edge_att"
 #puts "$lib_fu_att"
 #set dfg_late {}
-set latency_schedule [list_latency_optimization 1100 ]
-foreach pair $latency_schedule {
-set node_id [lindex $pair 0]
-set node_op [ get_attribute $node_id operation ]
-set node_delay [ lindex $pair 2 ]
-set start_time [lindex $pair 1]
-puts "node $node_id starts @$start_time"
+set start [ clock microseconds ]
+set latency_schedule [ brave_opt -lambda 292 ]
+set stop [ clock microseconds ]
+
+set node_start_time [ lindex $latency_schedule 0 ]
+set node_fu [ lindex $latency_schedule 1 ]
+set fu_numb [ lindex $latency_schedule 2 ]
+
+foreach pair $node_start_time {
+	set node_id [lindex $pair 0]
+	set start_time [lindex $pair 1]
+	puts "node $node_id starts @$start_time"
 #lappend dfg_late "$node_id $start_time"
 }
+foreach pair $node_fu {
+	set node_id [lindex $pair 0]
+	set fu [lindex $pair 1]
+	puts "node $node_id with fu $fu"
+}
+foreach pair $fu_numb {
+	set fu [lindex $pair 0]
+	set num [ lindex $pair 1]
+	puts " $num fu $fu used"
+}
+set tot_time [ expr { $stop - $start } ]
+puts " tot_time : $tot_time "  
 print_dfg ./data/out/fir.dot
 print_scheduled_dfg $latency_schedule ./data/out/fir_latency.dot
 

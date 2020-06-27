@@ -1,6 +1,18 @@
 
-proc list_latency_optimization { latency } {
-puts "start"
+proc brave_opt args {
+#####################braveopt
+ array set options { -lambda 0 }
+ if { [llength $args] != 2 } {
+ 	return -code error "use brave_opt with -lambda \$ latency_value \$"
+ }
+ foreach { opt val } $args { 
+	if { ![info exist options($opt)] } {
+		 return -code error " unknown options \"$opt\""
+	}
+	set options($opt) $val
+ }
+ set latency $options(-lambda)
+#puts "start"
  set node_sorted [get_sorted_nodes]
  set node_list [ lreverse $node_sorted ]
  set node_slack {}
@@ -236,6 +248,8 @@ set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
 
  puts " node_start: $node_start_res"
  puts "************************************************************************"
+ puts "one_type_res: $one_type_res "
+ puts "************************************************************************"
  puts "type_res: $type_res"
  puts "************************************************************************"     
  puts "node_alap: $node_alap"
@@ -258,7 +272,8 @@ set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
  set index_to_replace -1
  set index_res_op_to_opt 1
  foreach operation $one_type_res {
-	 if { [ lindex $operation 1] == 0 } {
+	 set ind [ lsearch -index 0 $type_res [ lindex $operation 0] ]
+	 if { [ lindex [ lindex $type_res $ind] 1 ] == 0 } {
 		 set flag 1
 	 }
 	 if { $flag == 0 } {
@@ -406,7 +421,7 @@ puts "res_to_sub: $res_to_sub"
  if {  $flag_critical == 1 } {
 puts "critical"
 	set flag_critical 0
-puts " res_to_sub_old : $res_to_sub"
+#puts " res_to_sub_old : $res_to_sub"
 #puts " node_start_temp: $node_start_temp"
 #puts "list_op: $list_op list_op_count: $list_op_count"
 #	set res_to_sub $res_to_sub_temp
@@ -431,13 +446,13 @@ puts " res_to_sub_old : $res_to_sub"
 			set list_op [ lreplace $list_op $list_op_count $list_op_count ]
 			set res_to_sub $res_to_sub_temp
 			incr list_op_count -1
-puts "test_list_1"
+#puts "test_list_1"
                 } else {
 			set operation_to_replace [ lindex $type_res $index_to_replace ]
 			set res_to_sub [ lindex $res_to_sub_list $index_res_to_sub_list ]
 			set res_to_sub [ lreplace $res_to_sub $index_last_cr $index_last_cr $operation_to_replace ]
 			incr index_res_to_sub_list -1
-puts "test_list_2"
+#puts "test_list_2"
 		}
 	} elseif { $index_res_to_sub_list < 0 } {
 		set list_op [ lreplace $list_op $list_op_count $list_op_count ]
@@ -446,18 +461,18 @@ puts "test_list_2"
 		set res_to_sub $res_to_sub_temp 
 ###################################################
 		set index_res_to_sub_list [ expr { [ llength $res_to_sub_list ] - 2 } ]
-puts "test_list_4"
+#puts "test_list_4"
 	} else {
                 set res_to_sub [ lindex $res_to_sub_list $index_res_to_sub_list ]
 		set res_to_sub [ lreplace $res_to_sub $index_last_cr $index_last_cr $operation_to_replace ]
 		incr index_res_to_sub_list -1
-puts "test_list_3"
+#puts "test_list_3"
 	}
 puts "index: $index_res_to_sub_list list_op: $list_op list_op_co: $list_op_count"
-puts "res_to_sub_new: $res_to_sub repl: $operation_to_replace res_to_sub_temp: $res_to_sub_temp"
+puts "res_to_sub_new: $res_to_sub"
 #puts "test_10"
  } else {
-puts "res_to_sub_good: $res_to_sub"
+puts "good"
 #puts "node_start_temp_good: $node_start_temp"
 	 set area_new 0
 	 set power_new 0
@@ -554,36 +569,43 @@ puts "power: $power_new area : $area_new gain_power: $gain_power gain_area: $gai
 	 set index_to_replace [ lsearch -start $index_last_op -index 0 $type_res [ lindex $operation 0 ] ]
 #puts " index_last_op: $index_last_op indx_to_replace: $index_to_replace"
 	 if { $index_to_replace < 0 } {
-		 
 		set list_op [ lreplace $list_op $index $index ]
 		set list_op_count [ expr { $list_op_count - 1 } ]
 	 } else {
 		set operation_to_replace [ lindex $type_res $index_to_replace ]
 		set res_to_sub [ lreplace $res_to_sub $index_last $index_last $operation_to_replace ]
 	 }
-puts "res_to_sub:$res_to_sub list_op: $list_op list_op_co: $list_op_count" 
+puts "res_to_sub:$res_to_sub list_op: $list_op list_op_co: $list_op_count"
  }
 
  }
 
 
-puts "res_to_sub_final:$res_to_sub list_op: $list_op list_op_co: $list_op_count"   
-puts "res_to_sub_list: $res_to_sub_list "
-puts " node_start_res: $node_start_res "
-puts " node_start_time_old: $node_start_time" 
-set node_start_time {}
+#puts "res_to_sub_final:$res_to_sub list_op: $list_op list_op_co: $list_op_count"
+puts " node_start_time_old: $node_start_time"
+ set node_start_time {}
  foreach node $node_start_res {
- set start_time [ lindex $node 1 ]
- set id_fu [ lindex $node 2 ]
- set id_node [ lindex $node 0 ]
- lappend node_start_time " $id_node $start_time "
- lappend node_fu "$id_node $id_fu"
+	 set start_time [ lindex $node 1 ]
+	 set id_fu [ lindex $node 2 ]
+ 	 set id_node [ lindex $node 0 ]
+ 	 lappend node_start_time " $id_node $start_time "
+	 lappend node_fu "$id_node $id_fu"
  }
  foreach node $type_res_original {
- set operation [ lindex $nodde 0 ]
- set index [ lsearch -index 0 $res_to_sub $node ]
- if {}
-
-}
- return $node_start_time
+	 set operation [ lindex $node 0 ]
+	 set id_fu [ lindex $node 2 ]
+	 set op [ lsearch -index 0 $res_to_sub $operation ]
+	 if { $op < 0 } {
+		 set number [ lindex $node 1 ]
+	 } else {
+		 set index [ lsearch -all -index 2 $res_to_sub $id_fu ]
+		 if { $index < 0 } {
+			set number 0
+		} else {
+ 		 set number [ llength $index ]
+		}
+ 	}
+	 lappend type_res_final " $id_fu $number "
+ }
+ return [list $node_start_time $node_fu $type_res_final]
 }
