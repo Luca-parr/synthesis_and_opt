@@ -302,6 +302,7 @@ puts "res_to_sub: $res_to_sub"
  while { [ llength $list_op ] > 0 } {
 #puts " test_11"
 #if { [ lsearch $res_to_sub_list $res_to_sub ] < 0 } {
+#puts " node_start_temp_start: $node_start_temp res_to_sub: $res_to_sub" 
  set t 1   
  while { $t <= $latency } {
 #puts "ok"
@@ -341,12 +342,12 @@ puts "res_to_sub: $res_to_sub"
 					set delta_delay [ expr { [ lindex $res_check  5 ] - [ lindex $operation 5] } ]
 
 					if { $delta_delay <= [ lindex $node 1 ] } {
-#puts "node_to_repl: $node_to_replace "
+#puts "delta_delay: $delta_delay $node "
 						set node_finish [ expr { [ lindex $node_to_replace 1 ] + [ lindex $res_check  5 ] } ]
 						set res_check [ lreplace $res_check 6 6 $node_finish ]
 						set res_to_sub [ lreplace $res_to_sub $index_res $index_res  $res_check ]
 
-						if { [ lindex $res_check 2 ] != [ lindex $node_to_replace 2 ] } {
+						if { ( [ lindex $res_check 2 ] != [ lindex $node_to_replace 2 ] ) } {
 							set node_to_replace [ lreplace $node_to_replace 2 2  [ lindex $res_check 2 ] ]
 							lappend node_modified " $node_to_replace $node_finish "
 							set node_start_temp [ lreplace $node_start_temp $index_node_start $index_node_start $node_to_replace ]
@@ -372,6 +373,7 @@ puts "res_to_sub: $res_to_sub"
 			} else {
 				set op_critical $operation
 				set flag_critical 1
+puts "node: $node res_to_sub: $res_to_sub node_slack: $node_slack t: $t node_start_temp: $node_start_temp"
 				break
 			}
 		}
@@ -389,6 +391,9 @@ puts "res_to_sub: $res_to_sub"
 				set index_par [ lsearch -index 0 $node_modified $parent ]
 				if { $index_par > -1 } {
 					set end_time_temp [ lindex [ lindex $node_modified $index_par ] 3 ]
+#if { $node_name == "N43" } {
+#puts "str: $end_time_temp"
+#}
 					if { $end_time_temp > $end_time } {
 						set end_time $end_time_temp
 					}
@@ -423,7 +428,7 @@ puts "res_to_sub: $res_to_sub"
 puts "critical"
 	set flag_critical 0
 #puts " res_to_sub_old : $res_to_sub"
-#puts " node_start_temp: $node_start_temp"
+#puts " node_start_temp_after_cr: $node_start_temp"
 #puts "list_op: $list_op list_op_count: $list_op_count"
 #	set res_to_sub $res_to_sub_temp
 
@@ -447,7 +452,6 @@ puts "critical"
 			set list_op [ lreplace $list_op $list_op_count $list_op_count ]
 			set res_to_sub $res_to_sub_temp
 			incr list_op_count -1
-#puts "test_list_1"
                 } else {
 			set operation_to_replace [ lindex $type_res $index_to_replace ]
 			set res_to_sub [ lindex $res_to_sub_list $index_res_to_sub_list ]
@@ -462,7 +466,6 @@ puts "critical"
 		set res_to_sub $res_to_sub_temp 
 ###################################################
 		set index_res_to_sub_list [ expr { [ llength $res_to_sub_list ] - 2 } ]
-#puts "test_list_4"
 	} else {
                 set res_to_sub [ lindex $res_to_sub_list $index_res_to_sub_list ]
 		set res_to_sub [ lreplace $res_to_sub $index_last_cr $index_last_cr $operation_to_replace ]
@@ -474,7 +477,7 @@ puts "res_to_sub_new: $res_to_sub"
 #puts "test_10"
  } else {
 puts "good"
-#puts "node_start_temp_good: $node_start_temp"
+puts "node_start_temp_good: $node_start_temp"
 	 set area_new 0
 	 set power_new 0
 	 set flag_not_opt 0
@@ -527,6 +530,7 @@ puts "power: $power_new area : $area_new gain_power: $gain_power gain_area: $gai
 		 set res_to_sub_temp $res_to_sub 
 		 lappend res_to_sub_list "$res_to_sub_temp"
 		 set node_start_res $node_start_temp
+                 set node_start_temp $node_start_original  
 		 set area_old $area_new
 		 set power_old $power_new
 	 }
@@ -543,6 +547,7 @@ puts "power: $power_new area : $area_new gain_power: $gain_power gain_area: $gai
 	 set operation [ lindex $list_op $list_op_count ] 
 #puts "or;: $operation"
 	 set index_start [ lsearch -index 0 $res_to_sub [ lindex $operation 0 ] ]
+puts " errore operation: $operation res_to_sub: $res_to_sub list_op: $list_op list_op_count: $list_op_count "
 	 set index_last [ expr { $index_start + [ lindex [ lindex $one_type_res [ lsearch -index 0 $one_type_res [ lindex $operation 0] ] ] 1 ] - 1 } ]
 #dobbiamo comparare id operazioni fra le due vicine
 #se quella a sinistra è diversa cambia

@@ -243,21 +243,17 @@ proc brave_opt args {
  	set power_old [ expr { $power_old + [ lindex [ lindex $type_res $index ] 4 ] * [ lindex [ lindex $type_res $index ] 5 ] } ]
  }
 set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
-set area_first $area_old
-set power_first $power_old
-
-
 #puts "t:$t_last"
 #puts "$one_type_res"
 
-# puts " node_start: $node_start_res"
-# puts "************************************************************************"
-# puts "one_type_res: $one_type_res "
-# puts "************************************************************************"
-# puts "type_res: $type_res"
-# puts "************************************************************************"     
-# puts "node_alap: $node_alap"
-# puts "************************************************************************"     
+ puts " node_start: $node_start_res"
+ puts "************************************************************************"
+ puts "one_type_res: $one_type_res "
+ puts "************************************************************************"
+ puts "type_res: $type_res"
+ puts "************************************************************************"     
+ puts "node_alap: $node_alap"
+ puts "************************************************************************"     
  set flag_sub 0
  set flag 0
  set area_new 0
@@ -266,8 +262,6 @@ set power_first $power_old
  set index_last -1
  set node_modified {}
  set res_to_sub_list {}
- set area_gain_final 0
- set power_gain_final 0
  set index_res_to_sub_list 0
  set list_op {}
  set list_op_count -1
@@ -303,13 +297,14 @@ set power_first $power_old
 	  set flag 0
 	  set list_op_to_opt {}
  }
-#puts "res_to_sub: $res_to_sub"
+puts "res_to_sub: $res_to_sub"
  lappend res_to_sub_list " $res_to_sub "
  while { [ llength $list_op ] > 0 } {
 #puts " test_11"
-#if { [ lsearch $res_to_sub_list $res_to_sub ] < 0 } {
+if { [ lsearch $res_to_sub_list $res_to_sub ] < 0 } {
  set t 1   
  while { $t <= $latency } {
+#puts "ok"
 	foreach operation $one_type_res {
 		if { [ lsearch -index 0 $res_to_sub [ lindex $operation 0 ] ] >= 0 } {
  			foreach node $node_start_temp {
@@ -346,12 +341,12 @@ set power_first $power_old
 					set delta_delay [ expr { [ lindex $res_check  5 ] - [ lindex $operation 5] } ]
 
 					if { $delta_delay <= [ lindex $node 1 ] } {
-#puts "node_to_repl: $node_to_replace "
+#puts "delta_delay: $delta_delay $node "
 						set node_finish [ expr { [ lindex $node_to_replace 1 ] + [ lindex $res_check  5 ] } ]
 						set res_check [ lreplace $res_check 6 6 $node_finish ]
 						set res_to_sub [ lreplace $res_to_sub $index_res $index_res  $res_check ]
 
-						if { ( [ lindex $res_check 2 ] != [ lindex $node_to_replace 2 ] ) } {
+						if { [ lindex $res_check 2 ] != [ lindex $node_to_replace 2 ] } {
 							set node_to_replace [ lreplace $node_to_replace 2 2  [ lindex $res_check 2 ] ]
 							lappend node_modified " $node_to_replace $node_finish "
 							set node_start_temp [ lreplace $node_start_temp $index_node_start $index_node_start $node_to_replace ]
@@ -377,6 +372,7 @@ set power_first $power_old
 			} else {
 				set op_critical $operation
 				set flag_critical 1
+puts "node: $node res_to_sub: $res_to_sub node_slack: $node_slack"
 				break
 			}
 		}
@@ -419,18 +415,16 @@ set power_first $power_old
 		break
 	}
 	set node_modified {}
-
-
 #aggiornodelay se flag critical 0
 #pulisconodemodified
  }
-#}
+}
 # set list_op_count 0
  if {  $flag_critical == 1 } {
-#puts "critical"
+puts "critical"
 	set flag_critical 0
 #puts " res_to_sub_old : $res_to_sub"
-#puts " node_start_temp: $node_start_temp"
+puts " node_start_temp: $node_start_temp"
 #puts "list_op: $list_op list_op_count: $list_op_count"
 #	set res_to_sub $res_to_sub_temp
 
@@ -476,11 +470,11 @@ set power_first $power_old
 		incr index_res_to_sub_list -1
 #puts "test_list_3"
 	}
-#puts "index: $index_res_to_sub_list list_op: $list_op list_op_co: $list_op_count"
-#puts "res_to_sub_new: $res_to_sub"
+puts "index: $index_res_to_sub_list list_op: $list_op list_op_co: $list_op_count"
+puts "res_to_sub_new: $res_to_sub"
 #puts "test_10"
  } else {
-#puts "good"
+puts "good"
 #puts "node_start_temp_good: $node_start_temp"
 	 set area_new 0
 	 set power_new 0
@@ -509,7 +503,7 @@ set power_first $power_old
 	 set power_new [ expr { $power_new / ( $latency +0.0000 ) } ]
 	 set delta_power [ expr { $power_old - $power_new } ]
 	 set gain_power [ expr { $delta_power * 100 / ( $power_old + 0.0000 ) } ]
-#puts "power: $power_new area : $area_new gain_power: $gain_power gain_area: $gain_area "
+puts "power: $power_new area : $area_new gain_power: $gain_power gain_area: $gain_area "
 	 if { $gain_power < 0 && $gain_area < 0 } {
 		set flag_not_opt 1
 	 } elseif { $gain_power < 0 } {
@@ -534,7 +528,6 @@ set power_first $power_old
 		 set res_to_sub_temp $res_to_sub 
 		 lappend res_to_sub_list "$res_to_sub_temp"
 		 set node_start_res $node_start_temp
-                 set node_start_temp $node_start_original 
 		 set area_old $area_new
 		 set power_old $power_new
 	 }
@@ -584,19 +577,14 @@ set power_first $power_old
 		set operation_to_replace [ lindex $type_res $index_to_replace ]
 		set res_to_sub [ lreplace $res_to_sub $index_last $index_last $operation_to_replace ]
 	 }
-#puts "res_to_sub:$res_to_sub list_op: $list_op list_op_co: $list_op_count"
+puts "res_to_sub:$res_to_sub list_op: $list_op list_op_co: $list_op_count"
  }
 
  }
 
 
 #puts "res_to_sub_final:$res_to_sub list_op: $list_op list_op_co: $list_op_count"
-#puts " node_start_time_old: $node_start_time"
- set old_latency [ lindex [ lindex $node_start_time [ expr { [ llength $node_start_time ] - 1 } ] ] 1 ]
- set old_latency [ expr { $old_latency + 2 } ]
- if { [ expr { $latency - $old_latency } ] < 0 } {
- 	 return -code error " error old_latency!" 
- }
+puts " node_start_time_old: $node_start_time"
  set node_start_time {}
  foreach node $node_start_res {
 	 set start_time [ lindex $node 1 ]
@@ -621,14 +609,5 @@ set power_first $power_old
  	}
 	 lappend type_res_final " $id_fu $number "
  }
- set new_latency [ lindex [ lindex $node_start_time [ expr { [ llength $node_start_time ] - 1 } ] ] 1 ]
- set new_latency [ expr { $new_latency + 2 } ]
- if { [ expr { $latency - $new_latency } ] < 0 } {
-	  return -code error " error new_latency!" 
- }
- set delta_area [ expr { $area_first - $area_old } ]
- set area_gain_final [ expr { $delta_area * 100 / ($area_first + 0.00 ) } ]
- set delta_power [ expr { $power_first - $power_old } ] 
- set power_gain_final [ expr { $delta_power * 100 / ($power_first + 0.00 ) } ] 
- return "$old_latency $new_latency $power_gain_final $area_gain_final "
+ return [list $node_start_time $node_fu $type_res_final]
 }

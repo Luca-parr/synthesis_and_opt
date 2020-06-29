@@ -14,7 +14,7 @@ read_library ./data/RTL_libraries/RTL_lib_1.txt
 #puts "$lib_fu_att"
 #set dfg_late {}
 set start [ clock microseconds ]
-set latency_schedule [ brave_opt -lambda 77 ]
+set latency_schedule [ brave_opt -lambda 1250 ]
 set stop [ clock microseconds ]
 
 set node_start_time [ lindex $latency_schedule 0 ]
