@@ -18,7 +18,7 @@ set fp [ open "./data/out/test_final_opt_5000_lat.txt" a]
 #puts "$lib_fu_att"
 #set dfg_late {}
 set i 0
-for {set i 612} { $i <  5002 } { incr i } {
+for {set i 22} { $i <  5002 } { incr i } {
 set start [ clock microseconds ]
 set latency_schedule [ brave_opt -lambda $i ]
 set stop [ clock microseconds ]

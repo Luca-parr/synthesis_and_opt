@@ -307,6 +307,7 @@ set power_first $power_old
  lappend res_to_sub_list " $res_to_sub "
  while { [ llength $list_op ] > 0 } {
 #puts " test_11"
+if { [ lsearch $res_to_sub_list $res_to_sub ] < 0 } {
  set t 1   
  while { $t <= $latency } {
 	foreach operation $one_type_res {
@@ -423,6 +424,7 @@ set power_first $power_old
 #aggiornodelay se flag critical 0
 #pulisconodemodified
  }
+}
 # set list_op_count 0
  if {  $flag_critical == 1 } {
 #puts "critical"

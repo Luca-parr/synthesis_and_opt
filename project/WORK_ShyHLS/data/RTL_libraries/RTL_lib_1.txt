@@ -13,7 +13,7 @@ ASR Area=51 Delay=1 Power=23
 LSR Area=61 Delay=1 Power=23
 LSL Area=61 Delay=1 Power=23
 LOD Area=21 Delay=1 Power=23
-LOD Area=12 Delay=2 Power=10
+LOD Area=12 Delay=2 Power=10 
 STR Area=21 Delay=2 Power=23
 SUB Area=21 Delay=1 Power=23
 BNE Area=21 Delay=2 Power=23
