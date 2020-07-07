@@ -4,8 +4,8 @@ source ./tcl_scripts/setenv.tcl
 #source ./tcl_scripts/scheduling/list_latency_optimization.tcl
 source ./tcl_scripts/scheduling/list_latency_optimization_test.tcl  
 read_design ./data/DFGs/fir.dot
-read_library ./data/RTL_libraries/RTL_lib_1.txt
-
+#read_library ./data/RTL_libraries/RTL_lib_1.txt
+read_library ./data/RTL_libraries/RTL_lib_2.txt
 set fp [ open "./data/out/test_final_opt_5000_lat.txt" w]
 close $fp
 set fp [ open "./data/out/test_final_opt_5000_lat.txt" a]

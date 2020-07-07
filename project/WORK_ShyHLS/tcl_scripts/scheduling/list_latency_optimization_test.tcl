@@ -288,7 +288,7 @@ set power_first $power_old
 			 	 lappend list_op_to_opt $res
 			 }
 		 }
-	 if { [llength $list_op_to_opt ] > 1 } {
+	 if { [llength $list_op_to_opt ] > 0 } {
 		 set op  [ lindex $operation 0 ]
 		 lappend list_op "$op"
 		 set num_res [ lindex $operation 1 ]

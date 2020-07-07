@@ -232,6 +232,8 @@ set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
  set index_res_op_to_opt 1
 #start optimization
 #create list_op and res_to_sub
+#puts "node_start_time: $node_start_time"
+
  foreach operation $one_type_res {
 	 set ind [ lsearch -index 0 $type_res [ lindex $operation 0] ]
 	 if { [ lindex [ lindex $type_res $ind] 1 ] == 0 } {
@@ -243,7 +245,7 @@ set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
 			 	 lappend list_op_to_opt $res
 			 }
 		 }
-	 if { [llength $list_op_to_opt ] > 1 } {
+	 if { [llength $list_op_to_opt ] > 0 } {
 		 set op  [ lindex $operation 0 ]
 		 lappend list_op "$op"
 		 set num_res [ lindex $operation 1 ]
@@ -259,6 +261,7 @@ set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
 	  set list_op_to_opt {}
  }
 #add first configuration to res_to_sub_list
+#puts "res_to_sub_start: $res_to_sub list_op_start: $list_op "
  lappend res_to_sub_list " $res_to_sub "
  while { [ llength $list_op ] > 0 } {
 #start scheduling with new configuration 
@@ -332,6 +335,9 @@ set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
 #increase cycle
 	set end_time 0
 	set node_modified [ lsort -real -index 3 $node_modified ]
+if { [ llength $node_modified ] > 0 } {
+#puts "node_m: $node_modified"
+}
 	if { $flag_critical == 0 } {
 #if not critical we check the delay of the sons and we propagate it
 		foreach node $node_start_temp {
@@ -462,6 +468,7 @@ set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
 #save the configuration
 		 set res_to_sub_temp $res_to_sub 
 		 lappend res_to_sub_list "$res_to_sub_temp"
+#puts "node_start_temp_ok: $node_start_temp"
 		 set node_start_res $node_start_temp
                  set node_start_temp $node_start_original  
 		 set area_old $area_new
@@ -475,6 +482,7 @@ set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
 	 }  
 	 set operation [ lindex $list_op $list_op_count ] 
 	 set index_start [ lsearch -index 0 $res_to_sub [ lindex $operation 0 ] ]
+#puts "list_op: $list_op res_to_sub: $res_to_sub index_start: $index_start operatiom: $operation"
 	 set index_last [ expr { $index_start + [ lindex [ lindex $one_type_res [ lsearch -index 0 $one_type_res [ lindex $operation 0] ] ] 1 ] - 1 } ]
 #we need to find the correct position of last slowest resource
 #we compare id of the next operations to see if they match 
@@ -514,6 +522,7 @@ set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
  }
 #end of optimization
 #create the lists necessary
+#puts "node_start_res: $node_start_res"
  set node_start_time {}
  foreach node $node_start_res {
 	 set start_time [ lindex $node 1 ]
@@ -538,5 +547,8 @@ set power_old [ expr { $power_old / ( $latency + 0.0000 ) } ]
  	}
 	 lappend type_res_final " $id_fu $number "
  }
+#puts "res_to_sub: $res_to_sub"
+#puts "type_res_original: $type_res_original"
+#puts "type_res: $type_res"
  return [list $node_start_time $node_fu $type_res_final]
 }

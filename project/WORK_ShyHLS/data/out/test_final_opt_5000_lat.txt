@@ -1,1188 +1,2168 @@
 Optimization succesfully completed with latency imposed at: 22 !
-Total time of the execution : 112807 us
+Total time of the execution : 122171 us
 The configuration started with 22 and was optimized to a new latency of 22.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 23 !
-Total time of the execution : 122600 us
+Total time of the execution : 131611 us
 The configuration started with 23 and was optimized to a new latency of 23.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 24 !
-Total time of the execution : 140273 us
+Total time of the execution : 152187 us
 The configuration started with 23 and was optimized to a new latency of 23.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 25 !
-Total time of the execution : 126871 us
+Total time of the execution : 138607 us
 The configuration started with 25 and was optimized to a new latency of 25.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 26 !
-Total time of the execution : 114434 us
+Total time of the execution : 127937 us
 The configuration started with 26 and was optimized to a new latency of 26.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 27 !
-Total time of the execution : 125595 us
+Total time of the execution : 137554 us
 The configuration started with 26 and was optimized to a new latency of 26.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 28 !
-Total time of the execution : 128461 us
+Total time of the execution : 162413 us
 The configuration started with 28 and was optimized to a new latency of 28.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 29 !
-Total time of the execution : 127428 us
+Total time of the execution : 138495 us
 The configuration started with 29 and was optimized to a new latency of 29.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 30 !
-Total time of the execution : 124891 us
+Total time of the execution : 136698 us
 The configuration started with 30 and was optimized to a new latency of 30.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 31 !
-Total time of the execution : 147094 us
+Total time of the execution : 162481 us
 The configuration started with 30 and was optimized to a new latency of 31.
 This configuration produced an optimization of 1.337295690936107 % of the area and 0.3644567858382555 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 32 !
-Total time of the execution : 156226 us
+Total time of the execution : 172968 us
 The configuration started with 30 and was optimized to a new latency of 31.
 This configuration produced an optimization of 1.337295690936107 % of the area and 0.3644567858382506 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 33 !
-Total time of the execution : 171919 us
+Total time of the execution : 187396 us
 The configuration started with 30 and was optimized to a new latency of 31.
 This configuration produced an optimization of 1.337295690936107 % of the area and 0.3644567858382447 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 34 !
-Total time of the execution : 178826 us
+Total time of the execution : 195812 us
 The configuration started with 30 and was optimized to a new latency of 31.
 This configuration produced an optimization of 1.337295690936107 % of the area and 0.3644567858382546 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 35 !
-Total time of the execution : 159736 us
+Total time of the execution : 174481 us
 The configuration started with 35 and was optimized to a new latency of 35.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 36 !
-Total time of the execution : 141927 us
+Total time of the execution : 157729 us
 The configuration started with 36 and was optimized to a new latency of 36.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 37 !
-Total time of the execution : 148864 us
+Total time of the execution : 162996 us
 The configuration started with 36 and was optimized to a new latency of 36.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 38 !
-Total time of the execution : 155379 us
+Total time of the execution : 170090 us
 The configuration started with 36 and was optimized to a new latency of 36.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 39 !
-Total time of the execution : 174247 us
+Total time of the execution : 192666 us
 The configuration started with 36 and was optimized to a new latency of 36.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 40 !
-Total time of the execution : 148161 us
+Total time of the execution : 165587 us
 The configuration started with 40 and was optimized to a new latency of 40.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 41 !
-Total time of the execution : 153135 us
+Total time of the execution : 170023 us
 The configuration started with 40 and was optimized to a new latency of 40.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 42 !
-Total time of the execution : 159605 us
+Total time of the execution : 175961 us
 The configuration started with 40 and was optimized to a new latency of 40.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 43 !
-Total time of the execution : 168509 us
+Total time of the execution : 187800 us
 The configuration started with 40 and was optimized to a new latency of 40.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 44 !
-Total time of the execution : 183035 us
+Total time of the execution : 205152 us
 The configuration started with 40 and was optimized to a new latency of 40.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 45 !
-Total time of the execution : 187965 us
+Total time of the execution : 209176 us
 The configuration started with 40 and was optimized to a new latency of 40.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 46 !
-Total time of the execution : 219498 us
+Total time of the execution : 245260 us
 The configuration started with 40 and was optimized to a new latency of 46.
 This configuration produced an optimization of 13.053097345132743 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 47 !
-Total time of the execution : 226132 us
+Total time of the execution : 250455 us
 The configuration started with 40 and was optimized to a new latency of 46.
 This configuration produced an optimization of 13.053097345132743 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 48 !
-Total time of the execution : 168409 us
+Total time of the execution : 190371 us
 The configuration started with 48 and was optimized to a new latency of 48.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 49 !
-Total time of the execution : 182531 us
+Total time of the execution : 203332 us
 The configuration started with 48 and was optimized to a new latency of 48.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 50 !
-Total time of the execution : 185697 us
+Total time of the execution : 207282 us
 The configuration started with 48 and was optimized to a new latency of 48.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 51 !
-Total time of the execution : 190508 us
+Total time of the execution : 215061 us
 The configuration started with 48 and was optimized to a new latency of 48.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 52 !
-Total time of the execution : 194591 us
+Total time of the execution : 217708 us
 The configuration started with 48 and was optimized to a new latency of 48.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 53 !
-Total time of the execution : 201692 us
+Total time of the execution : 225990 us
 The configuration started with 48 and was optimized to a new latency of 48.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 54 !
-Total time of the execution : 205402 us
+Total time of the execution : 230120 us
 The configuration started with 48 and was optimized to a new latency of 48.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 55 !
-Total time of the execution : 207077 us
+Total time of the execution : 232801 us
 The configuration started with 48 and was optimized to a new latency of 48.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 56 !
-Total time of the execution : 211919 us
+Total time of the execution : 238864 us
 The configuration started with 48 and was optimized to a new latency of 48.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 57 !
-Total time of the execution : 214279 us
+Total time of the execution : 241086 us
 The configuration started with 48 and was optimized to a new latency of 48.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 58 !
-Total time of the execution : 253073 us
+Total time of the execution : 286124 us
 The configuration started with 48 and was optimized to a new latency of 58.
 This configuration produced an optimization of 2.5568181818181817 % of the area and 1.1454356126344907 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 59 !
-Total time of the execution : 260569 us
+Total time of the execution : 294761 us
 The configuration started with 48 and was optimized to a new latency of 58.
 This configuration produced an optimization of 2.5568181818181817 % of the area and 1.1454356126345007 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 60 !
-Total time of the execution : 332441 us
+Total time of the execution : 385076 us
 The configuration started with 48 and was optimized to a new latency of 60.
 This configuration produced an optimization of 16.761363636363637 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 61 !
-Total time of the execution : 341215 us
+Total time of the execution : 386132 us
 The configuration started with 48 and was optimized to a new latency of 60.
 This configuration produced an optimization of 16.761363636363637 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 62 !
-Total time of the execution : 342299 us
+Total time of the execution : 390966 us
 The configuration started with 48 and was optimized to a new latency of 60.
 This configuration produced an optimization of 16.761363636363637 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 63 !
-Total time of the execution : 347007 us
+Total time of the execution : 400099 us
 The configuration started with 48 and was optimized to a new latency of 60.
 This configuration produced an optimization of 16.761363636363637 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 64 !
-Total time of the execution : 351890 us
+Total time of the execution : 406176 us
 The configuration started with 48 and was optimized to a new latency of 60.
 This configuration produced an optimization of 16.761363636363637 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 65 !
-Total time of the execution : 358810 us
+Total time of the execution : 417421 us
 The configuration started with 48 and was optimized to a new latency of 60.
 This configuration produced an optimization of 16.761363636363637 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 66 !
-Total time of the execution : 200529 us
+Total time of the execution : 231134 us
 The configuration started with 66 and was optimized to a new latency of 66.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 67 !
-Total time of the execution : 222019 us
+Total time of the execution : 249630 us
 The configuration started with 66 and was optimized to a new latency of 66.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 68 !
-Total time of the execution : 253748 us
+Total time of the execution : 298123 us
 The configuration started with 66 and was optimized to a new latency of 68.
 This configuration produced an optimization of 3.5714285714285716 % of the area and 1.1454356126345 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 69 !
-Total time of the execution : 258192 us
+Total time of the execution : 302150 us
 The configuration started with 66 and was optimized to a new latency of 68.
 This configuration produced an optimization of 3.5714285714285716 % of the area and 1.1454356126345049 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 70 !
-Total time of the execution : 261143 us
+Total time of the execution : 304905 us
 The configuration started with 66 and was optimized to a new latency of 68.
 This configuration produced an optimization of 3.5714285714285716 % of the area and 1.1454356126345107 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 71 !
-Total time of the execution : 268603 us
+Total time of the execution : 310529 us
 The configuration started with 66 and was optimized to a new latency of 68.
 This configuration produced an optimization of 3.5714285714285716 % of the area and 1.1454356126344885 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 72 !
-Total time of the execution : 274144 us
+Total time of the execution : 318720 us
 The configuration started with 66 and was optimized to a new latency of 68.
 This configuration produced an optimization of 3.5714285714285716 % of the area and 1.1454356126344902 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 73 !
-Total time of the execution : 277078 us
+Total time of the execution : 322111 us
 The configuration started with 66 and was optimized to a new latency of 68.
 This configuration produced an optimization of 3.5714285714285716 % of the area and 1.1454356126345053 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 74 !
-Total time of the execution : 281646 us
+Total time of the execution : 326667 us
 The configuration started with 66 and was optimized to a new latency of 68.
 This configuration produced an optimization of 3.5714285714285716 % of the area and 1.1454356126345147 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 75 !
-Total time of the execution : 315192 us
+Total time of the execution : 364938 us
 The configuration started with 66 and was optimized to a new latency of 68.
 This configuration produced an optimization of 3.5714285714285716 % of the area and 1.145435612634496 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 76 !
-Total time of the execution : 317955 us
+Total time of the execution : 369376 us
 The configuration started with 66 and was optimized to a new latency of 68.
 This configuration produced an optimization of 3.5714285714285716 % of the area and 1.1454356126344971 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 77 !
-Total time of the execution : 325592 us
+Total time of the execution : 378367 us
 The configuration started with 66 and was optimized to a new latency of 77.
 This configuration produced an optimization of 6.349206349206349 % of the area and 0.2776813606386506 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 78 !
-Total time of the execution : 328273 us
+Total time of the execution : 379423 us
 The configuration started with 66 and was optimized to a new latency of 77.
 This configuration produced an optimization of 6.349206349206349 % of the area and 0.2776813606386661 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 79 !
-Total time of the execution : 332271 us
+Total time of the execution : 380630 us
 The configuration started with 66 and was optimized to a new latency of 77.
 This configuration produced an optimization of 6.349206349206349 % of the area and 0.2776813606386686 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 80 !
-Total time of the execution : 334420 us
+Total time of the execution : 383190 us
 The configuration started with 66 and was optimized to a new latency of 77.
 This configuration produced an optimization of 6.349206349206349 % of the area and 0.27768136063867105 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 81 !
-Total time of the execution : 338737 us
+Total time of the execution : 390550 us
 The configuration started with 66 and was optimized to a new latency of 77.
 This configuration produced an optimization of 6.349206349206349 % of the area and 0.2776813606386684 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 82 !
-Total time of the execution : 343881 us
+Total time of the execution : 396584 us
 The configuration started with 66 and was optimized to a new latency of 77.
 This configuration produced an optimization of 6.349206349206349 % of the area and 0.2776813606386573 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 83 !
-Total time of the execution : 348139 us
+Total time of the execution : 402017 us
 The configuration started with 66 and was optimized to a new latency of 77.
 This configuration produced an optimization of 6.349206349206349 % of the area and 0.27768136063867055 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 84 !
-Total time of the execution : 347889 us
+Total time of the execution : 405291 us
 The configuration started with 66 and was optimized to a new latency of 77.
 This configuration produced an optimization of 6.349206349206349 % of the area and 0.2776813606386868 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 85 !
-Total time of the execution : 351105 us
+Total time of the execution : 409794 us
 The configuration started with 66 and was optimized to a new latency of 77.
 This configuration produced an optimization of 6.349206349206349 % of the area and 0.27768136063866616 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 86 !
-Total time of the execution : 357203 us
+Total time of the execution : 411910 us
 The configuration started with 66 and was optimized to a new latency of 77.
 This configuration produced an optimization of 6.349206349206349 % of the area and 0.2776813606386676 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 87 !
-Total time of the execution : 357482 us
+Total time of the execution : 414647 us
 The configuration started with 66 and was optimized to a new latency of 77.
 This configuration produced an optimization of 6.349206349206349 % of the area and 0.2776813606386587 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 88 !
-Total time of the execution : 363823 us
+Total time of the execution : 422724 us
 The configuration started with 66 and was optimized to a new latency of 77.
 This configuration produced an optimization of 6.349206349206349 % of the area and 0.277681360638675 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 89 !
-Total time of the execution : 464741 us
+Total time of the execution : 550716 us
 The configuration started with 66 and was optimized to a new latency of 89.
 This configuration produced an optimization of 23.41269841269841 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 90 !
-Total time of the execution : 472604 us
+Total time of the execution : 552651 us
 The configuration started with 66 and was optimized to a new latency of 89.
 This configuration produced an optimization of 23.41269841269841 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 91 !
-Total time of the execution : 472676 us
+Total time of the execution : 561427 us
 The configuration started with 66 and was optimized to a new latency of 89.
 This configuration produced an optimization of 23.41269841269841 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 92 !
-Total time of the execution : 479415 us
+Total time of the execution : 573174 us
 The configuration started with 66 and was optimized to a new latency of 89.
 This configuration produced an optimization of 23.41269841269841 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 93 !
-Total time of the execution : 433632 us
+Total time of the execution : 504783 us
 The configuration started with 66 and was optimized to a new latency of 93.
 This configuration produced an optimization of 26.984126984126984 % of the area and 1.1454356126344925 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 94 !
-Total time of the execution : 437516 us
+Total time of the execution : 523333 us
 The configuration started with 66 and was optimized to a new latency of 93.
 This configuration produced an optimization of 26.984126984126984 % of the area and 1.1454356126345087 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 95 !
-Total time of the execution : 439765 us
+Total time of the execution : 532300 us
 The configuration started with 66 and was optimized to a new latency of 93.
 This configuration produced an optimization of 26.984126984126984 % of the area and 1.145435612634504 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 96 !
-Total time of the execution : 450232 us
+Total time of the execution : 530685 us
 The configuration started with 66 and was optimized to a new latency of 93.
 This configuration produced an optimization of 26.984126984126984 % of the area and 1.1454356126345018 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 97 !
-Total time of the execution : 451244 us
+Total time of the execution : 542579 us
 The configuration started with 66 and was optimized to a new latency of 93.
 This configuration produced an optimization of 26.984126984126984 % of the area and 1.1454356126345098 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 98 !
-Total time of the execution : 454133 us
+Total time of the execution : 536449 us
 The configuration started with 66 and was optimized to a new latency of 93.
 This configuration produced an optimization of 26.984126984126984 % of the area and 1.1454356126344953 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 99 !
-Total time of the execution : 461144 us
+Total time of the execution : 540395 us
 The configuration started with 66 and was optimized to a new latency of 93.
 This configuration produced an optimization of 26.984126984126984 % of the area and 1.1454356126344978 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 100 !
-Total time of the execution : 466218 us
+Total time of the execution : 541817 us
 The configuration started with 66 and was optimized to a new latency of 93.
 This configuration produced an optimization of 26.984126984126984 % of the area and 1.145435612634496 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 101 !
-Total time of the execution : 490766 us
+Total time of the execution : 570487 us
 The configuration started with 66 and was optimized to a new latency of 101.
 This configuration produced an optimization of 29.761904761904763 % of the area and 0.2776813606386674 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 102 !
-Total time of the execution : 497687 us
+Total time of the execution : 578030 us
 The configuration started with 66 and was optimized to a new latency of 101.
 This configuration produced an optimization of 29.761904761904763 % of the area and 0.2776813606386661 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 103 !
-Total time of the execution : 485263 us
+Total time of the execution : 559001 us
 The configuration started with 66 and was optimized to a new latency of 101.
 This configuration produced an optimization of 29.761904761904763 % of the area and 0.277681360638667 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 104 !
-Total time of the execution : 481986 us
+Total time of the execution : 566602 us
 The configuration started with 66 and was optimized to a new latency of 101.
 This configuration produced an optimization of 29.761904761904763 % of the area and 0.27768136063866616 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 105 !
-Total time of the execution : 487669 us
+Total time of the execution : 565879 us
 The configuration started with 66 and was optimized to a new latency of 101.
 This configuration produced an optimization of 29.761904761904763 % of the area and 0.27768136063866616 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 106 !
-Total time of the execution : 490687 us
+Total time of the execution : 574201 us
 The configuration started with 66 and was optimized to a new latency of 101.
 This configuration produced an optimization of 29.761904761904763 % of the area and 0.2776813606386703 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 107 !
-Total time of the execution : 669182 us
+Total time of the execution : 782142 us
 The configuration started with 66 and was optimized to a new latency of 107.
 This configuration produced an optimization of 19.841269841269842 % of the area and 18.535230822631032 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 108 !
-Total time of the execution : 682587 us
+Total time of the execution : 801346 us
 The configuration started with 66 and was optimized to a new latency of 107.
 This configuration produced an optimization of 19.841269841269842 % of the area and 18.535230822631036 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 109 !
-Total time of the execution : 686386 us
+Total time of the execution : 805995 us
 The configuration started with 66 and was optimized to a new latency of 107.
 This configuration produced an optimization of 19.841269841269842 % of the area and 18.53523082263102 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 110 !
-Total time of the execution : 687880 us
+Total time of the execution : 805520 us
 The configuration started with 66 and was optimized to a new latency of 107.
 This configuration produced an optimization of 19.841269841269842 % of the area and 18.535230822631036 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 111 !
-Total time of the execution : 654000 us
+Total time of the execution : 770936 us
 The configuration started with 66 and was optimized to a new latency of 111.
 This configuration produced an optimization of 23.41269841269841 % of the area and 19.680666435265522 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 112 !
-Total time of the execution : 664203 us
+Total time of the execution : 778335 us
 The configuration started with 66 and was optimized to a new latency of 111.
 This configuration produced an optimization of 23.41269841269841 % of the area and 19.680666435265532 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 113 !
-Total time of the execution : 669991 us
+Total time of the execution : 780720 us
 The configuration started with 66 and was optimized to a new latency of 112.
 This configuration produced an optimization of 23.41269841269841 % of the area and 19.680666435265536 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 114 !
-Total time of the execution : 673263 us
+Total time of the execution : 789194 us
 The configuration started with 66 and was optimized to a new latency of 112.
 This configuration produced an optimization of 23.41269841269841 % of the area and 19.68066643526553 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 115 !
-Total time of the execution : 651708 us
+Total time of the execution : 763861 us
 The configuration started with 66 and was optimized to a new latency of 115.
 This configuration produced an optimization of 23.41269841269841 % of the area and 19.680666435265536 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 116 !
-Total time of the execution : 273100 us
+Total time of the execution : 327485 us
 The configuration started with 116 and was optimized to a new latency of 116.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 117 !
-Total time of the execution : 298068 us
+Total time of the execution : 356170 us
 The configuration started with 116 and was optimized to a new latency of 116.
 This configuration produced an optimization of 0.0 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 118 !
-Total time of the execution : 353930 us
+Total time of the execution : 425057 us
 The configuration started with 116 and was optimized to a new latency of 118.
 This configuration produced an optimization of 5.921052631578948 % of the area and 1.1454356126345007 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 119 !
-Total time of the execution : 361181 us
+Total time of the execution : 425937 us
 The configuration started with 116 and was optimized to a new latency of 118.
 This configuration produced an optimization of 5.921052631578948 % of the area and 1.1454356126344978 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 120 !
-Total time of the execution : 407980 us
+Total time of the execution : 484728 us
 The configuration started with 116 and was optimized to a new latency of 118.
 This configuration produced an optimization of 5.921052631578948 % of the area and 1.145435612634496 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 121 !
-Total time of the execution : 406536 us
+Total time of the execution : 484876 us
 The configuration started with 116 and was optimized to a new latency of 118.
 This configuration produced an optimization of 5.921052631578948 % of the area and 1.1454356126345047 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 122 !
-Total time of the execution : 409889 us
+Total time of the execution : 490090 us
 The configuration started with 116 and was optimized to a new latency of 122.
 This configuration produced an optimization of 10.526315789473685 % of the area and 0.27768136063866367 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 123 !
-Total time of the execution : 411209 us
+Total time of the execution : 493238 us
 The configuration started with 116 and was optimized to a new latency of 122.
 This configuration produced an optimization of 10.526315789473685 % of the area and 0.2776813606386573 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 124 !
-Total time of the execution : 423385 us
+Total time of the execution : 500695 us
 The configuration started with 116 and was optimized to a new latency of 122.
 This configuration produced an optimization of 10.526315789473685 % of the area and 0.27768136063867455 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 125 !
-Total time of the execution : 423832 us
+Total time of the execution : 504295 us
 The configuration started with 116 and was optimized to a new latency of 122.
 This configuration produced an optimization of 10.526315789473685 % of the area and 0.277681360638652 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 126 !
-Total time of the execution : 434847 us
+Total time of the execution : 507799 us
 The configuration started with 116 and was optimized to a new latency of 122.
 This configuration produced an optimization of 10.526315789473685 % of the area and 0.27768136063866616 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 127 !
-Total time of the execution : 429896 us
+Total time of the execution : 514773 us
 The configuration started with 116 and was optimized to a new latency of 122.
 This configuration produced an optimization of 10.526315789473685 % of the area and 0.2776813606386666 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 128 !
-Total time of the execution : 432853 us
+Total time of the execution : 513969 us
 The configuration started with 116 and was optimized to a new latency of 122.
 This configuration produced an optimization of 10.526315789473685 % of the area and 0.2776813606386671 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 129 !
-Total time of the execution : 433042 us
+Total time of the execution : 521992 us
 The configuration started with 116 and was optimized to a new latency of 122.
 This configuration produced an optimization of 10.526315789473685 % of the area and 0.27768136063866766 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 130 !
-Total time of the execution : 440067 us
+Total time of the execution : 526074 us
 The configuration started with 116 and was optimized to a new latency of 122.
 This configuration produced an optimization of 10.526315789473685 % of the area and 0.2776813606386661 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 131 !
-Total time of the execution : 386984 us
+Total time of the execution : 463976 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286805 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 132 !
-Total time of the execution : 392535 us
+Total time of the execution : 468208 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286565 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 133 !
-Total time of the execution : 391930 us
+Total time of the execution : 470458 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286676 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 134 !
-Total time of the execution : 391063 us
+Total time of the execution : 474180 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428663 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 135 !
-Total time of the execution : 392450 us
+Total time of the execution : 474800 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286676 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 136 !
-Total time of the execution : 391660 us
+Total time of the execution : 477196 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286707 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 137 !
-Total time of the execution : 392892 us
+Total time of the execution : 481103 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428674 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 138 !
-Total time of the execution : 404093 us
+Total time of the execution : 482524 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286725 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 139 !
-Total time of the execution : 402961 us
+Total time of the execution : 483589 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428673 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 140 !
-Total time of the execution : 397266 us
+Total time of the execution : 480815 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286796 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 141 !
-Total time of the execution : 400648 us
+Total time of the execution : 488238 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286716 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 142 !
-Total time of the execution : 405352 us
+Total time of the execution : 493432 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428672 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 143 !
-Total time of the execution : 403522 us
+Total time of the execution : 495187 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286765 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 144 !
-Total time of the execution : 408001 us
+Total time of the execution : 495534 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286667 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 145 !
-Total time of the execution : 411179 us
+Total time of the execution : 497444 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428671 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 146 !
-Total time of the execution : 414969 us
+Total time of the execution : 499303 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286756 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 147 !
-Total time of the execution : 428405 us
+Total time of the execution : 501228 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286596 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 148 !
-Total time of the execution : 421672 us
+Total time of the execution : 505330 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286716 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 149 !
-Total time of the execution : 422196 us
+Total time of the execution : 506458 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286694 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 150 !
-Total time of the execution : 414902 us
+Total time of the execution : 510775 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286694 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 151 !
-Total time of the execution : 415863 us
+Total time of the execution : 508767 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428678 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 152 !
-Total time of the execution : 418123 us
+Total time of the execution : 512049 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286627 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 153 !
-Total time of the execution : 425321 us
+Total time of the execution : 514547 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428681 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 154 !
-Total time of the execution : 422458 us
+Total time of the execution : 520346 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428654 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 155 !
-Total time of the execution : 427939 us
+Total time of the execution : 517648 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428665 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 156 !
-Total time of the execution : 428977 us
+Total time of the execution : 521863 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286813 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 157 !
-Total time of the execution : 430109 us
+Total time of the execution : 527629 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286747 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 158 !
-Total time of the execution : 430079 us
+Total time of the execution : 526873 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286636 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 159 !
-Total time of the execution : 432020 us
+Total time of the execution : 524508 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286654 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 160 !
-Total time of the execution : 435265 us
+Total time of the execution : 527232 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286742 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 161 !
-Total time of the execution : 442774 us
+Total time of the execution : 529612 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286725 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 162 !
-Total time of the execution : 445045 us
+Total time of the execution : 534003 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428671 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 163 !
-Total time of the execution : 448403 us
+Total time of the execution : 538324 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428667 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 164 !
-Total time of the execution : 446718 us
+Total time of the execution : 540427 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286676 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 165 !
-Total time of the execution : 446984 us
+Total time of the execution : 542374 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286805 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 166 !
-Total time of the execution : 451123 us
+Total time of the execution : 545995 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428679 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 167 !
-Total time of the execution : 451416 us
+Total time of the execution : 547938 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428666 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 168 !
-Total time of the execution : 451216 us
+Total time of the execution : 547132 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286725 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 169 !
-Total time of the execution : 455301 us
+Total time of the execution : 553226 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428667 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 170 !
-Total time of the execution : 461684 us
+Total time of the execution : 557465 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286623 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 171 !
-Total time of the execution : 458390 us
+Total time of the execution : 560495 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286747 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 172 !
-Total time of the execution : 460259 us
+Total time of the execution : 563273 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428664 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 173 !
-Total time of the execution : 458598 us
+Total time of the execution : 571310 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286654 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 174 !
-Total time of the execution : 462997 us
+Total time of the execution : 569133 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286636 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 175 !
-Total time of the execution : 471689 us
+Total time of the execution : 577523 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286667 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 176 !
-Total time of the execution : 467330 us
+Total time of the execution : 572403 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428683 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 177 !
-Total time of the execution : 472052 us
+Total time of the execution : 573625 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428668 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 178 !
-Total time of the execution : 470295 us
+Total time of the execution : 576422 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428668 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 179 !
-Total time of the execution : 478879 us
+Total time of the execution : 582940 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.36029156542867 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 180 !
-Total time of the execution : 472829 us
+Total time of the execution : 580103 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286734 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 181 !
-Total time of the execution : 479382 us
+Total time of the execution : 586142 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428673 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 182 !
-Total time of the execution : 483404 us
+Total time of the execution : 584515 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286734 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 183 !
-Total time of the execution : 486594 us
+Total time of the execution : 590042 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286787 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 184 !
-Total time of the execution : 488066 us
+Total time of the execution : 593620 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286725 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 185 !
-Total time of the execution : 484658 us
+Total time of the execution : 601024 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286694 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 186 !
-Total time of the execution : 484391 us
+Total time of the execution : 592707 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286685 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 187 !
-Total time of the execution : 486401 us
+Total time of the execution : 595236 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286685 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 188 !
-Total time of the execution : 487762 us
+Total time of the execution : 598571 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286716 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 189 !
-Total time of the execution : 494965 us
+Total time of the execution : 603912 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428678 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 190 !
-Total time of the execution : 499020 us
+Total time of the execution : 611102 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428672 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 191 !
-Total time of the execution : 503194 us
+Total time of the execution : 615502 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428666 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 192 !
-Total time of the execution : 503556 us
+Total time of the execution : 618242 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286782 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 193 !
-Total time of the execution : 497198 us
+Total time of the execution : 620670 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428667 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 194 !
-Total time of the execution : 502534 us
+Total time of the execution : 628570 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286742 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 195 !
-Total time of the execution : 510772 us
+Total time of the execution : 626006 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286742 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 196 !
-Total time of the execution : 501390 us
+Total time of the execution : 626828 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428666 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 197 !
-Total time of the execution : 500252 us
+Total time of the execution : 630280 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286685 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 198 !
-Total time of the execution : 513851 us
+Total time of the execution : 631168 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286645 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 199 !
-Total time of the execution : 507718 us
+Total time of the execution : 630142 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428678 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 200 !
-Total time of the execution : 513370 us
+Total time of the execution : 635174 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.36029156542867 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 201 !
-Total time of the execution : 510602 us
+Total time of the execution : 634756 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428675 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 202 !
-Total time of the execution : 512656 us
+Total time of the execution : 639108 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428673 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 203 !
-Total time of the execution : 523191 us
+Total time of the execution : 638873 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286707 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 204 !
-Total time of the execution : 520584 us
+Total time of the execution : 636163 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286747 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 205 !
-Total time of the execution : 525535 us
+Total time of the execution : 645114 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.36029156542866 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 206 !
-Total time of the execution : 526566 us
+Total time of the execution : 645908 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286756 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 207 !
-Total time of the execution : 523812 us
+Total time of the execution : 645161 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428668 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 208 !
-Total time of the execution : 534579 us
+Total time of the execution : 649954 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286685 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 209 !
-Total time of the execution : 526773 us
+Total time of the execution : 659385 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286605 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 210 !
-Total time of the execution : 540508 us
+Total time of the execution : 660442 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286623 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 211 !
-Total time of the execution : 536800 us
+Total time of the execution : 668357 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428672 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 212 !
-Total time of the execution : 538503 us
+Total time of the execution : 666761 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286782 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 213 !
-Total time of the execution : 536979 us
+Total time of the execution : 671424 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286716 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 214 !
-Total time of the execution : 538050 us
+Total time of the execution : 671849 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428666 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 215 !
-Total time of the execution : 541449 us
+Total time of the execution : 675153 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286667 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 216 !
-Total time of the execution : 537682 us
+Total time of the execution : 678102 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428671 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 217 !
-Total time of the execution : 547584 us
+Total time of the execution : 680394 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286707 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 218 !
-Total time of the execution : 547835 us
+Total time of the execution : 682910 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286667 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 219 !
-Total time of the execution : 552270 us
+Total time of the execution : 673079 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286756 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 220 !
-Total time of the execution : 543279 us
+Total time of the execution : 684820 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428667 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 221 !
-Total time of the execution : 545185 us
+Total time of the execution : 691861 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428676 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 222 !
-Total time of the execution : 558387 us
+Total time of the execution : 691184 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428667 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 223 !
-Total time of the execution : 560097 us
+Total time of the execution : 689501 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286707 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 224 !
-Total time of the execution : 552650 us
+Total time of the execution : 698402 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.3602915654286725 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 225 !
-Total time of the execution : 555173 us
+Total time of the execution : 692058 us
 The configuration started with 116 and was optimized to a new latency of 131.
 This configuration produced an optimization of 9.210526315789474 % of the area and 2.360291565428665 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 226 !
-Total time of the execution : 897530 us
+Total time of the execution : 1079489 us
 The configuration started with 116 and was optimized to a new latency of 226.
 This configuration produced an optimization of 38.81578947368421 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 227 !
-Total time of the execution : 901101 us
+Total time of the execution : 1078681 us
 The configuration started with 116 and was optimized to a new latency of 226.
 This configuration produced an optimization of 38.81578947368421 % of the area and 0.0 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 228 !
-Total time of the execution : 763852 us
+Total time of the execution : 922621 us
 The configuration started with 116 and was optimized to a new latency of 228.
 This configuration produced an optimization of 44.73684210526316 % of the area and 1.1454356126345062 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 229 !
-Total time of the execution : 773292 us
+Total time of the execution : 927956 us
 The configuration started with 116 and was optimized to a new latency of 228.
 This configuration produced an optimization of 44.73684210526316 % of the area and 1.1454356126345036 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 230 !
-Total time of the execution : 765129 us
+Total time of the execution : 933972 us
 The configuration started with 116 and was optimized to a new latency of 228.
 This configuration produced an optimization of 44.73684210526316 % of the area and 1.1454356126345078 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 231 !
-Total time of the execution : 766201 us
+Total time of the execution : 935973 us
 The configuration started with 116 and was optimized to a new latency of 228.
 This configuration produced an optimization of 44.73684210526316 % of the area and 1.1454356126344978 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 232 !
-Total time of the execution : 821364 us
+Total time of the execution : 1003037 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386588 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 233 !
-Total time of the execution : 825448 us
+Total time of the execution : 1007058 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386727 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 234 !
-Total time of the execution : 834607 us
+Total time of the execution : 1012953 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386661 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 235 !
-Total time of the execution : 732453 us
+Total time of the execution : 902232 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386603 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 236 !
-Total time of the execution : 736822 us
+Total time of the execution : 908776 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386664 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 237 !
-Total time of the execution : 749031 us
+Total time of the execution : 902553 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386637 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 238 !
-Total time of the execution : 738112 us
+Total time of the execution : 911615 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866616 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 239 !
-Total time of the execution : 740755 us
+Total time of the execution : 912941 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866417 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 240 !
-Total time of the execution : 742710 us
+Total time of the execution : 911986 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866616 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 241 !
-Total time of the execution : 751398 us
+Total time of the execution : 915742 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866616 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 242 !
-Total time of the execution : 750240 us
+Total time of the execution : 920719 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063867366 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 243 !
-Total time of the execution : 771163 us
+Total time of the execution : 933654 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386584 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 244 !
-Total time of the execution : 762061 us
+Total time of the execution : 929550 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866367 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 245 !
-Total time of the execution : 762736 us
+Total time of the execution : 931999 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386554 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 246 !
-Total time of the execution : 765265 us
+Total time of the execution : 939191 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386573 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 247 !
-Total time of the execution : 770838 us
+Total time of the execution : 966287 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866217 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 248 !
-Total time of the execution : 769516 us
+Total time of the execution : 942325 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063867455 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 249 !
-Total time of the execution : 778686 us
+Total time of the execution : 948798 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386706 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 250 !
-Total time of the execution : 781179 us
+Total time of the execution : 965674 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.277681360638652 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 251 !
-Total time of the execution : 778074 us
+Total time of the execution : 955255 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386669 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 252 !
-Total time of the execution : 771679 us
+Total time of the execution : 960661 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866616 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 253 !
-Total time of the execution : 784955 us
+Total time of the execution : 973067 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386655 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 254 !
-Total time of the execution : 781548 us
+Total time of the execution : 971817 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386666 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 255 !
-Total time of the execution : 782885 us
+Total time of the execution : 966579 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386661 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 256 !
-Total time of the execution : 787158 us
+Total time of the execution : 961223 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386671 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 257 !
-Total time of the execution : 786096 us
+Total time of the execution : 972018 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866616 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 258 !
-Total time of the execution : 786788 us
+Total time of the execution : 968606 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866766 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 259 !
-Total time of the execution : 790057 us
+Total time of the execution : 974124 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386666 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 260 !
-Total time of the execution : 791873 us
+Total time of the execution : 974745 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386661 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 261 !
-Total time of the execution : 796318 us
+Total time of the execution : 975627 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386695 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 262 !
-Total time of the execution : 799959 us
+Total time of the execution : 976437 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866355 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 263 !
-Total time of the execution : 808596 us
+Total time of the execution : 984790 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386614 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 264 !
-Total time of the execution : 807715 us
+Total time of the execution : 992693 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386588 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 265 !
-Total time of the execution : 803422 us
+Total time of the execution : 1006944 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866705 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 266 !
-Total time of the execution : 803342 us
+Total time of the execution : 1027691 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866095 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 267 !
-Total time of the execution : 814816 us
+Total time of the execution : 1002488 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866783 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 268 !
-Total time of the execution : 818549 us
+Total time of the execution : 1008334 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063867205 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 269 !
-Total time of the execution : 827011 us
+Total time of the execution : 1007049 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386763 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 270 !
-Total time of the execution : 828236 us
+Total time of the execution : 1012140 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063867166 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 271 !
-Total time of the execution : 831126 us
+Total time of the execution : 1017405 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063868004 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 272 !
-Total time of the execution : 833876 us
+Total time of the execution : 1013527 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866616 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 273 !
-Total time of the execution : 840045 us
+Total time of the execution : 1028727 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866616 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 274 !
-Total time of the execution : 830847 us
+Total time of the execution : 1024499 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063867943 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 275 !
-Total time of the execution : 836622 us
+Total time of the execution : 1023731 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866894 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 276 !
-Total time of the execution : 843158 us
+Total time of the execution : 1021721 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386684 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 277 !
-Total time of the execution : 843504 us
+Total time of the execution : 1033001 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063867105 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 278 !
-Total time of the execution : 835177 us
+Total time of the execution : 1030823 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386654 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 279 !
-Total time of the execution : 840401 us
+Total time of the execution : 1040833 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866117 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 280 !
-Total time of the execution : 837313 us
+Total time of the execution : 1039308 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386661 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 281 !
-Total time of the execution : 842763 us
+Total time of the execution : 1056383 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063865756 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 282 !
-Total time of the execution : 846689 us
+Total time of the execution : 1063399 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866317 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 283 !
-Total time of the execution : 858367 us
+Total time of the execution : 1063153 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386691 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 284 !
-Total time of the execution : 844747 us
+Total time of the execution : 1046579 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.277681360638658 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 285 !
-Total time of the execution : 853206 us
+Total time of the execution : 1051362 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.277681360638668 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 286 !
-Total time of the execution : 867587 us
+Total time of the execution : 1058746 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063867094 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 287 !
-Total time of the execution : 866305 us
+Total time of the execution : 1059618 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.27768136063866483 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 288 !
-Total time of the execution : 856622 us
+Total time of the execution : 1059810 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386573 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 289 !
-Total time of the execution : 868561 us
+Total time of the execution : 1061259 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386714 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 290 !
-Total time of the execution : 864945 us
+Total time of the execution : 1067054 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386588 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 291 !
-Total time of the execution : 866515 us
+Total time of the execution : 1070100 us
 The configuration started with 116 and was optimized to a new latency of 232.
 This configuration produced an optimization of 49.3421052631579 % of the area and 0.2776813606386661 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 292 !
-Total time of the execution : 1362310 us
+Total time of the execution : 1654283 us
 The configuration started with 116 and was optimized to a new latency of 292.
 This configuration produced an optimization of 32.89473684210526 % of the area and 67.96251301631378 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 293 !
-Total time of the execution : 1357762 us
+Total time of the execution : 1663630 us
 The configuration started with 116 and was optimized to a new latency of 292.
 This configuration produced an optimization of 32.89473684210526 % of the area and 67.96251301631379 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 294 !
-Total time of the execution : 1259275 us
+Total time of the execution : 1554593 us
 The configuration started with 116 and was optimized to a new latency of 294.
 This configuration produced an optimization of 38.81578947368421 % of the area and 69.10794862894828 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 295 !
-Total time of the execution : 1256563 us
+Total time of the execution : 1540603 us
 The configuration started with 116 and was optimized to a new latency of 294.
 This configuration produced an optimization of 38.81578947368421 % of the area and 69.10794862894828 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 296 !
-Total time of the execution : 1266369 us
+Total time of the execution : 1533687 us
 The configuration started with 116 and was optimized to a new latency of 294.
 This configuration produced an optimization of 38.81578947368421 % of the area and 69.10794862894828 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 297 !
-Total time of the execution : 1269457 us
+Total time of the execution : 1543184 us
 The configuration started with 116 and was optimized to a new latency of 294.
 This configuration produced an optimization of 38.81578947368421 % of the area and 69.1079486289483 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 298 !
-Total time of the execution : 1077224 us
+Total time of the execution : 1318246 us
 The configuration started with 116 and was optimized to a new latency of 298.
 This configuration produced an optimization of 43.421052631578945 % of the area and 68.24019437695243 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 299 !
-Total time of the execution : 1089391 us
+Total time of the execution : 1324072 us
 The configuration started with 116 and was optimized to a new latency of 298.
 This configuration produced an optimization of 43.421052631578945 % of the area and 68.24019437695245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 300 !
-Total time of the execution : 1088518 us
+Total time of the execution : 1331245 us
 The configuration started with 116 and was optimized to a new latency of 298.
 This configuration produced an optimization of 43.421052631578945 % of the area and 68.24019437695245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 301 !
-Total time of the execution : 1091969 us
+Total time of the execution : 1332877 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 302 !
-Total time of the execution : 1095485 us
+Total time of the execution : 1335690 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 303 !
-Total time of the execution : 1093555 us
+Total time of the execution : 1337396 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 304 !
-Total time of the execution : 1098150 us
+Total time of the execution : 1353480 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 305 !
-Total time of the execution : 1099909 us
+Total time of the execution : 1349350 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 306 !
-Total time of the execution : 1101318 us
+Total time of the execution : 1353866 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 307 !
-Total time of the execution : 1117679 us
+Total time of the execution : 1362190 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 308 !
-Total time of the execution : 1112944 us
+Total time of the execution : 1359847 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 309 !
-Total time of the execution : 1113182 us
+Total time of the execution : 1368898 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 310 !
-Total time of the execution : 1133051 us
+Total time of the execution : 1372682 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 311 !
-Total time of the execution : 1119065 us
+Total time of the execution : 1370180 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 312 !
-Total time of the execution : 1125732 us
+Total time of the execution : 1384961 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 313 !
-Total time of the execution : 1116935 us
+Total time of the execution : 1380128 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 314 !
-Total time of the execution : 1123980 us
+Total time of the execution : 1380333 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 315 !
-Total time of the execution : 1119271 us
+Total time of the execution : 1379150 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 316 !
-Total time of the execution : 1119066 us
+Total time of the execution : 1377684 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 317 !
-Total time of the execution : 1118280 us
+Total time of the execution : 1378092 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
 Optimization succesfully completed with latency imposed at: 318 !
-Total time of the execution : 1122092 us
+Total time of the execution : 1379874 us
 The configuration started with 116 and was optimized to a new latency of 301.
 This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 319 !
+Total time of the execution : 1379799 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 320 !
+Total time of the execution : 1387774 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 321 !
+Total time of the execution : 1387981 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 322 !
+Total time of the execution : 1414282 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 323 !
+Total time of the execution : 1416805 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 324 !
+Total time of the execution : 1423784 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 325 !
+Total time of the execution : 1428676 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 326 !
+Total time of the execution : 1416676 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 327 !
+Total time of the execution : 1422576 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 328 !
+Total time of the execution : 1425973 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 329 !
+Total time of the execution : 1426565 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 330 !
+Total time of the execution : 1426643 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 331 !
+Total time of the execution : 1442294 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 332 !
+Total time of the execution : 1445075 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 333 !
+Total time of the execution : 1446348 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 334 !
+Total time of the execution : 1446000 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 335 !
+Total time of the execution : 1453469 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 336 !
+Total time of the execution : 1464041 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 337 !
+Total time of the execution : 1474859 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 338 !
+Total time of the execution : 1467226 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 339 !
+Total time of the execution : 1462422 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 340 !
+Total time of the execution : 1471278 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 341 !
+Total time of the execution : 1473187 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 342 !
+Total time of the execution : 1477778 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 343 !
+Total time of the execution : 1481697 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 344 !
+Total time of the execution : 1494443 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 345 !
+Total time of the execution : 1496920 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 346 !
+Total time of the execution : 1493239 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 347 !
+Total time of the execution : 1526030 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 348 !
+Total time of the execution : 1518964 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 349 !
+Total time of the execution : 1514487 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 350 !
+Total time of the execution : 1516905 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 351 !
+Total time of the execution : 1517304 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 352 !
+Total time of the execution : 1527526 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 353 !
+Total time of the execution : 1533053 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 354 !
+Total time of the execution : 1533959 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 355 !
+Total time of the execution : 1538548 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 356 !
+Total time of the execution : 1547127 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 357 !
+Total time of the execution : 1545813 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 358 !
+Total time of the execution : 1541464 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 359 !
+Total time of the execution : 1546180 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 360 !
+Total time of the execution : 1567969 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 361 !
+Total time of the execution : 1542956 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 362 !
+Total time of the execution : 1556132 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 363 !
+Total time of the execution : 1574892 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 364 !
+Total time of the execution : 1559470 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 365 !
+Total time of the execution : 1561078 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 366 !
+Total time of the execution : 1576755 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 367 !
+Total time of the execution : 1588091 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 368 !
+Total time of the execution : 1570968 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 369 !
+Total time of the execution : 1614866 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 370 !
+Total time of the execution : 1593326 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 371 !
+Total time of the execution : 1583556 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 372 !
+Total time of the execution : 1599112 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 373 !
+Total time of the execution : 1607113 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 374 !
+Total time of the execution : 1619177 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 375 !
+Total time of the execution : 1613065 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 376 !
+Total time of the execution : 1610958 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 377 !
+Total time of the execution : 1622384 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 378 !
+Total time of the execution : 1609719 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 379 !
+Total time of the execution : 1612474 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 380 !
+Total time of the execution : 1620593 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 381 !
+Total time of the execution : 1632670 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 382 !
+Total time of the execution : 1639620 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 383 !
+Total time of the execution : 1633318 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 384 !
+Total time of the execution : 1640457 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 385 !
+Total time of the execution : 1655580 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 386 !
+Total time of the execution : 1647826 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 387 !
+Total time of the execution : 1653560 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 388 !
+Total time of the execution : 1664164 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 389 !
+Total time of the execution : 1675777 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 390 !
+Total time of the execution : 1676613 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 391 !
+Total time of the execution : 1679245 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 392 !
+Total time of the execution : 1681535 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 393 !
+Total time of the execution : 1682596 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 394 !
+Total time of the execution : 1685570 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 395 !
+Total time of the execution : 1691464 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 396 !
+Total time of the execution : 1684141 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 397 !
+Total time of the execution : 1687710 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 398 !
+Total time of the execution : 1699281 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 399 !
+Total time of the execution : 1698594 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 400 !
+Total time of the execution : 1709937 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 401 !
+Total time of the execution : 1709634 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 402 !
+Total time of the execution : 1719419 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 403 !
+Total time of the execution : 1725759 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 404 !
+Total time of the execution : 1725193 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 405 !
+Total time of the execution : 1732786 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 406 !
+Total time of the execution : 1738873 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 407 !
+Total time of the execution : 1743075 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 408 !
+Total time of the execution : 1740526 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 409 !
+Total time of the execution : 1746846 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 410 !
+Total time of the execution : 1743691 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 411 !
+Total time of the execution : 1749362 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 412 !
+Total time of the execution : 1757500 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 413 !
+Total time of the execution : 1760168 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 414 !
+Total time of the execution : 1764370 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 415 !
+Total time of the execution : 1767346 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 416 !
+Total time of the execution : 1774542 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 417 !
+Total time of the execution : 1765962 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 418 !
+Total time of the execution : 1767684 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 419 !
+Total time of the execution : 1782926 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 420 !
+Total time of the execution : 1779791 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 421 !
+Total time of the execution : 1791809 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 422 !
+Total time of the execution : 1786111 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 423 !
+Total time of the execution : 1790128 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 424 !
+Total time of the execution : 1794178 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 425 !
+Total time of the execution : 1796330 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 426 !
+Total time of the execution : 1804987 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 427 !
+Total time of the execution : 1802641 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 428 !
+Total time of the execution : 1807385 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 429 !
+Total time of the execution : 1835396 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 430 !
+Total time of the execution : 1817198 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 431 !
+Total time of the execution : 1814945 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 432 !
+Total time of the execution : 1820288 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 433 !
+Total time of the execution : 1816706 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 434 !
+Total time of the execution : 1823509 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 435 !
+Total time of the execution : 1830630 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 436 !
+Total time of the execution : 1838870 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 437 !
+Total time of the execution : 1844486 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 438 !
+Total time of the execution : 1839111 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 439 !
+Total time of the execution : 1840212 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 440 !
+Total time of the execution : 1849367 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 441 !
+Total time of the execution : 1863818 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 442 !
+Total time of the execution : 1858392 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 443 !
+Total time of the execution : 1872086 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 444 !
+Total time of the execution : 1891197 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 445 !
+Total time of the execution : 1893348 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 446 !
+Total time of the execution : 1880898 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 447 !
+Total time of the execution : 1908125 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174243 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 448 !
+Total time of the execution : 1888498 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 449 !
+Total time of the execution : 1886239 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 450 !
+Total time of the execution : 1897082 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 451 !
+Total time of the execution : 1887425 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 452 !
+Total time of the execution : 1890850 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 453 !
+Total time of the execution : 1926938 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 454 !
+Total time of the execution : 1909451 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 455 !
+Total time of the execution : 1918743 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 456 !
+Total time of the execution : 1923047 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 457 !
+Total time of the execution : 1918628 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 458 !
+Total time of the execution : 1935039 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 459 !
+Total time of the execution : 1934086 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 460 !
+Total time of the execution : 1952473 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 461 !
+Total time of the execution : 1951919 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 462 !
+Total time of the execution : 1940056 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 463 !
+Total time of the execution : 1938020 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 464 !
+Total time of the execution : 1943397 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 465 !
+Total time of the execution : 1952109 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 466 !
+Total time of the execution : 1946152 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 467 !
+Total time of the execution : 1955606 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 468 !
+Total time of the execution : 1949843 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 469 !
+Total time of the execution : 1950761 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 470 !
+Total time of the execution : 1953895 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 471 !
+Total time of the execution : 1970189 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 472 !
+Total time of the execution : 1977611 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 473 !
+Total time of the execution : 1978379 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 474 !
+Total time of the execution : 1977334 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 475 !
+Total time of the execution : 1985781 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 476 !
+Total time of the execution : 1995018 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 477 !
+Total time of the execution : 1986268 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 478 !
+Total time of the execution : 1990291 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 479 !
+Total time of the execution : 1993920 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 480 !
+Total time of the execution : 2000650 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 481 !
+Total time of the execution : 2018551 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 482 !
+Total time of the execution : 2054158 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 483 !
+Total time of the execution : 2024948 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 484 !
+Total time of the execution : 2038626 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 485 !
+Total time of the execution : 2018712 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 486 !
+Total time of the execution : 2027990 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 487 !
+Total time of the execution : 2029258 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174243 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 488 !
+Total time of the execution : 2035733 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 489 !
+Total time of the execution : 2037560 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 490 !
+Total time of the execution : 2040036 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 491 !
+Total time of the execution : 2040205 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 492 !
+Total time of the execution : 2050566 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 493 !
+Total time of the execution : 2060495 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 494 !
+Total time of the execution : 2063501 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 495 !
+Total time of the execution : 2054206 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 496 !
+Total time of the execution : 2069699 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 497 !
+Total time of the execution : 2069696 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 498 !
+Total time of the execution : 2081851 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 499 !
+Total time of the execution : 2079921 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 500 !
+Total time of the execution : 2082097 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 501 !
+Total time of the execution : 2079249 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 502 !
+Total time of the execution : 2089846 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 503 !
+Total time of the execution : 2104638 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 504 !
+Total time of the execution : 2111238 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 505 !
+Total time of the execution : 2142485 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 506 !
+Total time of the execution : 2113297 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 507 !
+Total time of the execution : 2108042 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 508 !
+Total time of the execution : 2136851 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 509 !
+Total time of the execution : 2145243 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 510 !
+Total time of the execution : 2137105 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 511 !
+Total time of the execution : 2129198 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 512 !
+Total time of the execution : 2159627 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 513 !
+Total time of the execution : 2141343 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 514 !
+Total time of the execution : 2140504 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 515 !
+Total time of the execution : 2158861 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 516 !
+Total time of the execution : 2135489 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 517 !
+Total time of the execution : 2139203 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 518 !
+Total time of the execution : 2155629 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 519 !
+Total time of the execution : 2158875 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 520 !
+Total time of the execution : 2151971 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 521 !
+Total time of the execution : 2174388 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 522 !
+Total time of the execution : 2176743 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 523 !
+Total time of the execution : 2188273 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 524 !
+Total time of the execution : 2203307 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 525 !
+Total time of the execution : 2180483 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 526 !
+Total time of the execution : 2320349 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 527 !
+Total time of the execution : 2310180 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 528 !
+Total time of the execution : 2242470 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 529 !
+Total time of the execution : 2210807 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 530 !
+Total time of the execution : 2197526 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 531 !
+Total time of the execution : 2209714 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 532 !
+Total time of the execution : 2226957 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 533 !
+Total time of the execution : 2237048 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 534 !
+Total time of the execution : 2225960 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 535 !
+Total time of the execution : 2222573 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 536 !
+Total time of the execution : 2228655 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 537 !
+Total time of the execution : 2247247 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 538 !
+Total time of the execution : 2230946 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 539 !
+Total time of the execution : 2246412 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 540 !
+Total time of the execution : 2268644 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 541 !
+Total time of the execution : 2243226 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 542 !
+Total time of the execution : 2278699 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 543 !
+Total time of the execution : 2254819 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 544 !
+Total time of the execution : 2263491 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 545 !
+Total time of the execution : 2256014 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 546 !
+Total time of the execution : 2273599 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 547 !
+Total time of the execution : 2272979 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 548 !
+Total time of the execution : 2254320 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 549 !
+Total time of the execution : 2271723 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 550 !
+Total time of the execution : 2271752 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 551 !
+Total time of the execution : 2275263 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 552 !
+Total time of the execution : 2272650 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 553 !
+Total time of the execution : 2286083 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 554 !
+Total time of the execution : 2301515 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174245 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 555 !
+Total time of the execution : 2300330 us
+The configuration started with 116 and was optimized to a new latency of 301.
+This configuration produced an optimization of 42.10526315789474 % of the area and 70.32280458174246 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 556 !
+Total time of the execution : 3791781 us
+The configuration started with 116 and was optimized to a new latency of 556.
+This configuration produced an optimization of 39.473684210526315 % of the area and 78.2714335300243 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 557 !
+Total time of the execution : 3804772 us
+The configuration started with 116 and was optimized to a new latency of 556.
+This configuration produced an optimization of 39.473684210526315 % of the area and 78.27143353002428 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 558 !
+Total time of the execution : 3544557 us
+The configuration started with 116 and was optimized to a new latency of 558.
+This configuration produced an optimization of 45.39473684210526 % of the area and 79.4168691426588 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 559 !
+Total time of the execution : 3597521 us
+The configuration started with 116 and was optimized to a new latency of 558.
+This configuration produced an optimization of 45.39473684210526 % of the area and 79.4168691426588 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 560 !
+Total time of the execution : 3584022 us
+The configuration started with 116 and was optimized to a new latency of 558.
+This configuration produced an optimization of 45.39473684210526 % of the area and 79.4168691426588 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 561 !
+Total time of the execution : 3583549 us
+The configuration started with 116 and was optimized to a new latency of 558.
+This configuration produced an optimization of 45.39473684210526 % of the area and 79.41686914265878 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 562 !
+Total time of the execution : 3039657 us
+The configuration started with 116 and was optimized to a new latency of 562.
+This configuration produced an optimization of 50.0 % of the area and 78.54911489066296 % of the power from the first schedule. 
+Optimization succesfully completed with latency imposed at: 563 !
+Total time of the execution : 3082482 us
+The configuration started with 116 and was optimized to a new latency of 562.
+This configuration produced an optimization of 50.0 % of the area and 78.54911489066296 % of the power from the first schedule. 
